@@ -1,39 +1,50 @@
 ---
-title: HIPE-2022 Shared Task
+title: HIPE-2026 Shared Task
 permalink: about
 ---
 
-### About
+### HIPE-2026: Evaluating Accurate and Efficient Person–Place Relation Extraction
 
-Following the first CLEF-HIPE-2020 evaluation lab on historical newspapers in three languages, HIPE-2022 is based on diverse datasets and aims at confronting systems with the challenges of dealing with more languages, 
-learning domain-specific entities, and adapting to diverse annotation tag sets.    
+Following the successful evaluation labs in 2020 and 2022 on named entity processing, the third edition of the HIPE shared task will focus on **Person-Place Relation Mining in Historical Documents**.
 
-The **objectives** of HIPE-2022 are to:
+The central question of HIPE-2026 is: **Who was where when?** Participants will develop systems to extract person-place relations from multilingual historical newspapers, a crucial step for building historical knowledge graphs, reconstructing biographies, and enabling new forms of spatial analysis.
 
- - assess and advance the development of **robust, adaptable and transferable** named entity processing systems across languages, time periods, document types, and annotation tag sets.  
- - deal with **challenging historical material**, thereby supporting information extraction and text understanding of cultural heritage data.
+### The Task
 
- 
-Compared to the first edition, HIPE-2022 introduces **several noveltie**s, with:
+The task is framed as a three-way relation classification. For a given person and place in a document, systems must determine if a relation holds by assigning one of three labels: `true`, `probable`, or `false`. Two distinct relation types will be evaluated:
 
-- the addition of a **new type of document** alongside historical newspapers, namely classical commentaries;
-- the consideration of a **broader language spectrum**, with 5 languages for historical newspapers and 3 for classical commentaries;
-- the confrontation with the issue of the **heterogeneity of annotation tag sets and guideline**s.
+- **`wasAt`**: Denotes whether the person was ever at the place at any time before the document's publication.
+- **`isAt`**: Denotes whether the person is at the place in the immediate context of the publication date.
 
+### Evaluation Profiles
 
-Therefore the main **challenges** of the HIPE-2022 edition are:
+Recognizing the growing importance of computational costs, HIPE-2026 will feature two evaluation profiles:
 
-  - multilingual corpora from different countries: English, German (AU,DE,CH) ,French (CH,FR), Finnish, Swedish
-  - different document types (historical newspapers and classic commentaries)
-  - noisy OCR
-  - partial coverage of KBs with respect to historical entities
-  - different annotation tagsets 
+1.  **Accuracy Profile**: Rewarding the highest-performing systems to push the state-of-the-art.
+2.  **Efficiency Profile**: Promoting lightweight and scalable methods by considering a trade-off between accuracy, model size, and compute resources.
 
-### Registration and information
+A surprise dataset from a different domain will be used to evaluate how well systems generalize.
+
+### Registration and Information
+
+More information on the schedule and registration will be available soon. For questions, please contact the organizers via our mailing list (link to be provided).
+
+---
+
+### About the Previous Edition (HIPE-2022)
+
+HIPE-2022 was based on diverse datasets and aimed at confronting systems with the challenges of dealing with more languages, learning domain-specific entities, and adapting to diverse annotation tag sets.
+
+The main **challenges** of the HIPE-2022 edition were:
+
+- Multilingual corpora from different countries: English, German (AU,DE,CH), French (CH,FR), Finnish, Swedish
+- Different document types (historical newspapers and classic commentaries)
+- Noisy OCR
+- Partial coverage of KBs with respect to historical entities
+- Different annotation tagsets
+
+### Registration and Mailing list
+
 CLEF lab registration opens on 15 November 2021 and closes on 22 April 2022 ([registration link](https://clef2022-labs-registration.dei.unipd.it/)).
 
-
 Please mail to our [HIPE 2022 mailing list](https://groups.google.com/g/hipe-2022) for any questions.
-
-
-

@@ -1,0 +1,262 @@
+HIPE 2026: Evaluating Accurate and Efficient Person–Place
+Relation Extraction from Multilingual Historical Texts
+
+CLEF HIPE-2026 Team
+Abstract
+Building on the previous CLEF Evaluation Labs HIPE-2020 and HIPE-2022 on named entity processing in multi-
+lingual historical documents, we introduce “HIPE-2026: Person-Place Relation Mining in Historical Documents”,
+a shared task focused on identifying person–place relations in multilingual historical newspapers.
+Based on a pilot study that confirmed the feasibility of the task, HIPE-2026 targets a single but fundamental
+relation type (person–isAt–place) and additionally requires systems or models to determine the temporal scope
+of this relation. Working with challenging materials – i.e OCR-noisy, multilingual and domain-diverse newspaper
+articles – participants will contribute to the development of approaches that are key to constructing historical
+knowledge graphs, reconstructing biographies, enabling spatial analysis, and advancing text understanding of
+historical material.
+Given the energy costs of frontier models and the need to process large-scale cultural heritage collections, we
+identify efficiency as a critical challenge. HIPE-2026 will therefore offer two sub-tracks: one targeting maximum
+accuracy, the other prioritizing a trade-off between accuracy and computational efficiency. A surprise dataset
+will be included to evaluate generalization across domains. All datasets will be released to support transparency,
+reuse and further research.
+Keywords
+Relation Mining, Historical Documents, Information Extraction, Text Understanding, Digital Humanities
+1. Description of the HIPE-2026 Lab: Topic, Objectives and Task
+We propose HIPE-2026, a shared task focused on extracting person–place relations from large-scale
+multilingual historical newspaper collections. This ‘campaign-style’ track develops on the successful
+HIPE challenges at CLEF 2020 and 2022, which targeted historical named entity recognition and linking
+[1, 2]1. As these foundational tasks have matured, the next logical step is to explore deeper semantic
+links between historical entities.
+The central question of HIPE-2026 is: Who was where when? Such relations are often implicit and
+buried in complex narratives across sentence boundaries. Extracting reliable person–place relations
+is essential for building historical knowledge graphs, reconstructing biographies, analyzing social
+mobility, and supporting spatial humanities research. Recent surveys of document-level relation
+extraction underline both the promise and the difficulty of capturing cross-sentence relations, and they
+highlight benchmarks such as DocRED that move beyond sentence-level evaluation [3].
+How can person-place relations be effectively extracted from heterogeneous historical texts?
+Document-level co-occurrence statistics lack the precision necessary for reliable downstream ap-
+plications. While large language models (LLMs) offer promising capabilities, they remain imperfect for
+this task [4] and are computationally expensive to deploy at scale, particularly given the multiplica-
+tive growth in potential entity pairs per document. These challenges motivate two central research
+questions:
+1. How accurately can person-place relationships be extracted from heterogeneous historical
+newspaper texts?
+2. How can we build efficient and generalisable methods that enable large-scale relation extraction
+across vast historical digital archives?
+© 2025 This work is licensed under a “CC BY 4.0” license.
+1HIPE stands for ‘Identifying Historical People, Places and other Entities’. Please see the HIPE-2020 website, the HIPE-2022
+website and the HIPE Github organisation. Please note that HIPE-2026 builds on previous HIPE shared tasks but proposes a
+new task and is therefore not a continuation.To investigate these research questions, we propose two complementary evaluation profiles:
+1. The accuracy profile rewards high-performance systems, encouraging exploration of frontier
+models, advanced prompt engineering, or agentive approaches.
+2. The efficiency profile promotes lightweight, scalable methods, including smaller LLMs or
+task-specific classifiers.
+Submissions will be ranked in two categories: most accurate system (person-place relation classifi-
+cation performance) and best accuracy–efficiency tradeoff (based on a composite score combining
+accuracy, model size and compute resources). This design supports inclusivity, enabling well-resourced
+teams to pursue the accuracy profile, while others can compete by developing cost-efficient solutions.
+Task Design and Pilot Study. To validate the task design and assess its feasibility, we conducted a
+pilot study focused on the task formulation, annotation consistency, and model performance. This study
+led us to define two relation variables: at, denoting whether a person was ever at a given place, and isAt,
+indicating more recent presence relative to publication date — each labeled as True, False, or Probable
+based on whether the analysed historical text provides evidence for the person’s presence at the
+place, either implicitly or explicitly. In particular, the distinction between at and isAt envisages diverse
+downstream needs: While the temporally broader at could be directly used to, e.g., build spatial entity
+networks, isAt would allow for more dynamic, digital-forensics-like studies, tracing the interactions of
+persons and places. Hence, we consider these two relations highly complementary.
+A total of 119 person–place pairs were annotated by three independent annotators, drawn from the
+English and French development sets of CLEF-HIPE-2022. Inter-annotator agreement (Cohen’s kappa)
+ranged from 0.7 to 0.9 for the at relation, and from 0.4 to 0.9 for isAt, indicating moderate to high
+consistency. Large language models also showed promising alignment with human judgments: GPT-4o
+reached up to 0.8 agreement with the gold standard for at, while isAt results were lower and more
+variable (0.2–0.7). The study further highlighted the high inference cost of current models and the need
+for scalable methods that can handle the multiplicative growth of candidate entity pairs in historical
+documents. These findings motivated the use of a three-way label set as well as the distinction between
+temporally broader (at) and narrower (isAt) relation types. An exact definition of the task is formulated
+in Section 3.2.1.
+2. Significance for the Field and Target Audience
+Significance for the Field Person–place relations over time are fundamental to important computa-
+tional tasks such as knowledge graph construction, spatial network analysis, and semantic enrichment,
+synergizing well with other text processing tasks such as geocoding and named entity recognition
+[5, 6, 7]. The recognition of such relations can also support historical reconstructions, such as mo-
+bility patterns [8] and biographical contextualisation [9]. Studies mapping intellectual mobility from
+Wikipedia further confirm that geographically explicit relations open new avenues of inquiry in cultural
+history [10].
+Target Audience This evaluation lab is designed to engage three communities. First, researchers
+from the NLP, CLEF and Machine Learning communities, who have shown growing interest in
+advancing text understanding for challenging diachronic, domain-specific datasets 2. HIPE-2026 offers
+these communities the opportunity to: 1) test and compare models’ design, performance and efficiency
+on noisy, multilingual, and dated language from complex historical journalism that are unfamiliar to
+most models; 2) explore effective strategies for extracting the targeted relation from historical and
+literary sources; 3) access to curated, multilingual datasets annotated for this task; 4) contribute to
+2As reflected in the increasing number of related publications at NLP and CL conferences and initiatives such as the ACL
+Special Interest Group on Language Technologies for the Socio-Economic Sciences and Humanities.advancing state-of-the-art methods in semantic indexing and text understanding of cultural heritage
+materials.
+Second, the Digital Humanities and Computational Literary Studies communities. Scholars in
+these fields increasingly rely on NLP tools to extract structured information from historical and literary
+sources. This lab supports such efforts by providing annotated datasets and comparative insights into
+performance, strengths, and limitations of relation extraction approaches, enabling more informed tool
+selection. Extracting person–place relations is particularly valuable for reconstructing spatial narratives
+or mapping character networks, for instance in historical documents, novels, or plays.
+Third, professionals in Libraries, Archives, and Museums are increasingly applying AI to cultural
+heritage collections. They are eager to share data (when copyright allows), support tool development,
+and test solutions that may be adopted in practice.
+3. Organisation of the Evaluation Lab
+3.1. Team and Responsibilities
+The HIPE-2026 Evaluation Lab will be organised by a core team composed of Juri Opitz (submission
+organisation, evaluation, workshop organisation), Matteo Romanello (annotation, data management),
+Maud Ehrmann (data management, publication, workshop organisation) and Simon Clematide (annota-
+tion, coordination), with the additional technical support of Emanuela Boros and Andrianos Michail.
+All team members except Matteo are currently involved in the Impresso 2 project3, which focuses on
+text mining of historical media. Matteo previously contributed to the Impresso 1 project.
+Juri Opitz is a postdoctoral researcher at the Department of Computational Linguistics at University
+of Zurich. He holds a PhD in Computational Linguistics from Heidelberg University. He has extensively
+published on matters of semantics, semantic representations, and evaluation. Relevant to the lab: He
+has co-organised several Eval4NLP workshops, including the 2023 shared task on explainable evaluation
+of (and with) generative models.
+Matteo Romanello is senior data engineer at the Swiss Art Research Infrastructure (SARI) of the
+University of Zurich. He holds a PhD in Digital Humanities from King’s College London and carried out
+research at the intersection of Humanities and CS/NLP, including work on citation mining, information
+extraction and computational literary studies. Prior to joining SARI, he was senior researcher at the
+University of Geneva, senior SNSF-Ambizione lecturer at University of Lausanne, and post-doctoral
+researcher at EPFL’s DHLAB. Relevant to the lab: Matteo’s doctoral dissertation tackled the problem
+of extracting citations of classical texts within large-scale archives of publications, casted as a case
+of domain-specific named entity recognition and linking. More recently, he worked on named entity
+recognition and linking in historical texts. He co-initiated the HIPE evaluation lab (CLEF-HIPE-2020,
+CLEF-HIPE-2022).
+Maud Ehrmann is a Research Scientist and lecturer at the Digital Humanities Laboratory of the Ecole
+Polytechnique Fédérale de Lausanne (EPFL-DHLAB), Switzerland. She holds a PhD in Computational
+Linguistics from the Paris Diderot University and has been engaged in various projects centred on
+information extraction and text analysis, both for present-time and historical documents. She assumed
+the coordination of the SNSF-funded Impresso 1 project and is a co-PI of the second edition. Relevant
+to the lab: She co-initiated and co-organised the CLEF-HIPE-2020 and CLEF-HIPE-2022 shared tasks,
+and participated in the SemEval Metonymy Resolution Task 08 in 2007 contributed to the material
+preparation of SemEval-2013 Task 12 on Multilingual Word Sense Disambiguation.
+Simon Clematide is a senior researcher and lecturer at the Department of Computational Linguistics
+at the University of Zurich. He holds a PhD in Computational Linguistics and worked on political
+and biomedical text mining, sentiment analysis (SENTISPIDER), named entity recognition (MANTRA),
+multilingual text annotation (SPARCLING), neural text normalisation and NLP for digital humanities
+3https://impresso-project.ch(Impresso). Relevant to the lab: His scientific work has a strong focus on text mining. In the past years,
+he participated in various evaluation tasks and co-organised a few tasks (CLEF CLEF-ER Initiative on
+multilingual and cross-lingual named entity recognition in the biomedical domain; the HIPE 2020/2022
+evaluation lab; SIGMORPHON 2021 Task 1 on Grapheme-to-Phoneme conversion).
+Emanuela Boros is a post-doctoral researcher at EPFL-DHLAB, where she works on the Impresso 2
+project. She holds a PhD in Computer Science from Université Paris-Saclay (2018). With a background
+in deep learning, NLP, and information extraction, her research focuses on extracting entities, relations,
+and events from digitised historical documents. Relevant to the lab: She has successfully participated
+in CLEF-HIPE-2020/2022, as well as in several other shared tasks.
+Andrianos Michail is a doctoral candidate in Computational Linguistics at the University of Zurich.
+Relevant to the lab: He has achieved top performances in multiple shared tasks (e.g., 2nd out of 45 in
+SemEval). He advised many successful student submissions to CLEF shared tasks and has authored two
+best-of-lab papers with them.
+We do not plan to form a formal steering committee at this stage, but will consult with experienced
+CLEF organisers and domain experts as needed.
+3.2. Evaluation Campaign
+3.2.1. Task Formulation: Three-way Relation Classification
+HIPE-2026 consists of one main task — qualifying person–place relations from historical texts —
+evaluated through two complementary evaluation profiles: an accuracy profile and an efficiency profile.
+The task itself is framed in a straightforward way as a three-way relation classification task, conditioned
+on a candidate relation and a newspaper article as context. Systems are given:
+• the text of a historical document;
+• a set of person mentions, where repeated surface forms of mentions are de-duplicated when
+referring to the same entity (having the same Wikidata QID);
+• a corresponding set of place mentions, represented in the same way;
+• two relation types: at and isAt, where:
+– at denotes whether the person was ever at the place, at any time prior to the publication
+date of the document;
+– isAt denotes whether the person is located at the place in the immediate context of
+publication, excluding future events.
+And must consider the Cartesian product:
+person × place × relation
+For each resulting triple (person, place, relation), the system must assess whether the article
+provides evidence that the relation holds. Each triple must be assigned one of three labels: true,
+probable, or false, based on whether the article offers explicit or implicit textual evidence for the
+relation. This formulation mirrors real-world document scenarios, where multiple mentions must be
+jointly considered. For qualitative analysis, participants using generative approaches might also provide
+explanations for the decisions.
+3.2.2. Data Management and Preparation
+Leveraging previous HIPE shared task material, the following datasets will be prepared:
+1. A multilingual dataset (French, German, English, and Luxembourgish), primarily derived
+from HIPE-2022, containing person–place relation labels for entities already annotated in that
+campaign. All relation labels will undergo pre-annotation by large language models and will2. subsequently be adjudicated and validated by human annotators. Publication date metadata will
+support historical contextualisation and temporal reasoning. This dataset will serve as the main
+development resource and support both system training and calibration. The test set A will be
+compiled to reflect the characteristics of the main labelled data.
+A manually annotated hidden test set B, released shortly before the testing phase to assess model
+generalisation. It is based on an existing dataset4 of 34 French literary texts (16th–18th century),
+previously annotated for named entities and entity linking. This corpus will be enriched with
+person–place relation labels. As it originates from a different textual domain, it enables evaluation
+of domain transfer, testing system robustness beyond historical newspapers. Metadata on the
+original publication date of each text will also be provided.
+3.2.3. Operationalisation of the Shared Task
+Organisation of submissions Participants will be asked to submit system outputs on the blind
+test sets A and B, accompanied by metadata describing their model and computational setup. Shared
+task participation and submission guidelines will ensure comparability across approaches. Baseline
+resources will be provided, including a prompt template, example of input/output formats, and the
+official scoring script used for the evaluation.
+Evaluation Metrics For the accuracy profile, we will report standard classification metrics —
+Precision, Recall, Accuracy, and F1 score — for each relation type (at, isAt). Rankings will be based on
+a macro-average computed at the document level, ensuring equal weight is given to each article.
+For the efficiency profile, performances will be assessed using the following indicators:
+• Inference time on test data;
+• Total number of model parameters;
+• Memory and hardware requirements (e.g., GPU/CPU constraints);
+• Whether the system is open-source and/or low-cost to run.
+Submissions may be grouped into efficiency tiers, and we plan to explore threshold-based or compara-
+tive ranking schemes. We will also monitor label imbalance effects and calibration behaviour, following
+guidance from recent relation extraction evaluations [11].
+Shared Task Resources will be shared on standard platforms: Datasets will be documented and
+released on a dedicated Github (GH) repository5 and on the Zenodo and Hugging Face platforms. The
+data repository will include exploratory notebooks and baseline code. Evaluation scripts will be available
+through another GH repository and Hugging Face. Participants’ results and necessary material for
+replicating the evaluation will be published after the campaign. Finally, we aim to provide a leaderboard
+with the test data that is available beyond the CLEF-HIPE-2026 campaign.
+Communication To advertise the campaign and communicate with participants, we will maintain a
+dedicated website with key information (timeline, data, submission guidelines6), advertise and update
+through main NLP mailing lists and a Bluesky account, and coordinate with participant teams via a
+Google mailing list. The organising team is familiar with the target communities and their customs
+and practices. In addition to drawing on our professional networks in NLP and DH, we will leverage
+the Impresso project – which brings together around 20 partners from the cultural heritage sector – to
+maximise the visibility and reach of the shared task.
+4https://github.com/e-ditiones/LEM17
+5On this GH organisation https://github.com/hipe-eval
+6Building on existing HIPE website.3.3. Workshop Organisation
+The final workshop, supported by a program committee, will include peer-reviewed working notes from
+participants. Depending on participation, we plan to host a full-day event to present and discuss the
+evaluation campaign results. The programme will feature: (i) an invited keynote on historical relation
+extraction, (ii) oral presentations by participating teams, and (iii) a panel discussion on “Scaling RE
+under (compute) budget constraints”.
+References
+[1] M. Ehrmann, M. Romanello, A. Flückiger, S. Clematide, Extended overview of clef hipe 2020: named
+entity processing on historical newspapers, in: CEUR Workshop Proceedings, 2696, CEUR-WS,
+2020.
+[2] M. Ehrmann, M. Romanello, A. Doucet, S. Clematide, Introducing the hipe 2022 shared task: Named
+entity recognition and linking in multilingual historical documents, in: European Conference on
+Information Retrieval, Springer, 2022, pp. 347–354.
+[3] Y. Yao, X. Han, P. Lyu, Y. Lin, Z. Liu, M. Sun, S. Touileb, DocRED: A large-scale document-level
+relation extraction dataset, in: Proceedings of the 57th Annual Meeting of the Association for Com-
+putational Linguistics (ACL), Florence, Italy, 2019, pp. 764–777. doi:10.18653/v1/P19-1074.
+[4] G. Li, P. Wang, W. Ke, Y. Guo, K. Ji, Z. Shang, J. Liu, Z. Xu, Recall, retrieve and reason: Towards better
+in-context relation extraction, in: K. Larson (Ed.), Proceedings of the Thirty-Third International
+Joint Conference on Artificial Intelligence, IJCAI-24, International Joint Conferences on Artificial
+Intelligence Organization, 2024, pp. 6368–6376. URL: https://doi.org/10.24963/ijcai.2024/704. doi:10.
+24963/ijcai.2024/704, main Track.
+[5] N. Karalis, G. Mandilaras, M. Koubarakis, Extending the yago2 knowledge graph with precise
+geospatial knowledge, in: The Semantic Web–ISWC 2019: 18th International Semantic Web
+Conference, Auckland, New Zealand, October 26–30, 2019, Proceedings, Part II 18, Springer, 2019,
+pp. 181–197.
+[6] S. S. Graham, Z. P. Majdik, D. Clark, Methods for extracting relational data from unstructured
+texts prior to network visualization in humanities research, Journal of Open Humanities Data 6
+(2020).
+[7] A. Chadzynski, N. Krdzavac, F. Farazi, M. Q. Lim, S. Li, A. Grisiute, P. Herthogs, A. von Richthofen,
+S. Cairns, M. Kraft, Semantic 3d city database—an enabler for a dynamic geospatial knowledge
+graph, Energy and AI (2021).
+[8] M. Schich, C. Song, Y.-Y. Ahn, A. Mirsky, M. Martino, A.-L. Barabási, D. Helbing, A network
+framework of cultural history, Science 345 (2014) 558–562. doi:10.1126/science.1240064.
+[9] A. Fokkens, S. Ter Braake, N. Ockeloen, P. Vossen, S. Legêne, G. Schreiber, V. de Boer, Biographynet:
+Extracting relations between people and events, arXiv preprint arXiv:1801.07073 (2018).
+[10] L. Lucchini, S. Tonelli, B. Lepri, Following the footsteps of giants: modeling the mobility of
+historically notable individuals using wikipedia, EPJ Data Science 8 (2019) 1–16.
+[11] S. Yang, M. Choi, Y. Cho, J. Choo, HistRED: A historical document-level relation extraction dataset,
+in: A. Rogers, J. Boyd-Graber, N. Okazaki (Eds.), Proceedings of the 61st Annual Meeting of the
+Association for Computational Linguistics (Volume 1: Long Papers), Association for Computational
+Linguistics, Toronto, Canada, 2023, pp. 3207–3224. URL: https://aclanthology.org/2023.acl-long.
+180/. doi:10.18653/v1/2023.acl-long.180.
