@@ -1,7 +1,7 @@
 ---
 layout: splash
 permalink: /
-title: HIPE – Identifying Historical People, Places and other Entities
+title: HIPE 2026 – Evaluating Accurate and Efficient Person–Place Relation Extraction from Multilingual Historical Texts
 #title: HIPE 2022
 hidden: true
 header:
@@ -11,9 +11,7 @@ header:
   #actions:
   # - label: "<i class='fas fa-download'></i> Install now"
   #   url: "/docs/quick-start-guide/"
-excerpt: >
-  Evaluating Accurate and Efficient Person–Place Relation Extraction from Multilingual Historical Texts
-
+excerpt: ""
 #{% include feature_row %}
 #test here
 

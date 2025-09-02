@@ -4,5 +4,3 @@ permalink: references
 ---
 
 **About HIPE-2026**
-
-</details>
