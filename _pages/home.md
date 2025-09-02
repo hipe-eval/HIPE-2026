@@ -1,90 +1,69 @@
 ---
 layout: splash
 permalink: /
-title: HIPE – Identifying Historical People, Places and other Entities 
-#title: HIPE 2022 
-hidden: true 
+title: HIPE – Identifying Historical People, Places and other Entities
+#title: HIPE 2022
+hidden: true
 header:
   #overlay_color: black #"#5e616c"
   overlay_image: /assets/images/readers-cut.jpg
-  overlay_filter: rgba(82, 138, 156, 0.3)  
+  overlay_filter: rgba(82, 138, 156, 0.3)
   #actions:
-   # - label: "<i class='fas fa-download'></i> Install now"
-   #   url: "/docs/quick-start-guide/"
+  # - label: "<i class='fas fa-download'></i> Install now"
+  #   url: "/docs/quick-start-guide/"
 excerpt: >
   Shared Task on Named Entity Recognition and Linking in Multilingual Historical Documents
 
-
 #{% include feature_row %}
 #test here
-
 
 #{% include feature_row %}
 #test here
 
 # Each feature row has 3 columns; more than one row is possible
 feature_row:
-    - image_path: #/assets/images/mm-free-feature.png
-      alt: #"100% free"
-      title: "About HIPE-2022"
-      excerpt: "What is HIPE-2022? How can you participate? Where to register?"
-      url: "/about"
-      #btn_class: "btn--primary"
-      btn_label: "Learn more"  
-    - image_path: #/assets/images/outline_done_outline_black_48dp.png
-      alt: #"customizable"
-      title: "Tasks & Data"
-      excerpt: "HIPE 2022 features several NER and NEL subtasks in 5 languages."
-      url: "/tasks"
-      #btn_class: "btn--inverse"
-      btn_label: "Learn more"
-    - image_path: #/assets/images/mm-responsive-feature.png
-      alt: #"fully responsive"
-      title: "Timeline & Instructions"
-      excerpt: "Important dates for participating in the shared task and Working Notes paper instructions."
-      url: "/timeline"
-      #btn_class: "btn--inverse"
-      btn_label: "Learn more"
-    - image_path: #/assets/images/outline_done_outline_black_48dp.png
-      alt: #"customizable"
-      title: "Evaluation"
-      excerpt: "Everything you need to know about HIPE evaluation metrics and tools. "
-      url: "/tasks"
-      #btn_class: "btn--primary"
-      btn_label: "Learn more"
-    - image_path: #/assets/images/mm-responsive-feature.png
-      alt: #"fully responsive"
-      title: "Workshop"
-      excerpt: "Results and system description papers will be presented at CLEF 2022 in September."
-      url: "/workshop"
-      #btn_class: "btn--primary"
-      btn_label: "Learn more"
-    - image_path: #/assets/images/mm-free-feature.png
-      alt: #"100% free"
-      title: "Organizers"
-      excerpt: "Get to know the people who spend their time (and annotated data) for HIPE 2022."
-      url: "/organizers"
-      #btn_class: "btn--primary"
-      btn_label: "Learn more"      
+  - image_path: #/assets/images/mm-free-feature.png
+    alt: #"100% free"
+    title: "About HIPE-2026"
+    excerpt: "What is HIPE-2026? How can you participate? Where to register?"
+    url: "/about"
+    #btn_class: "btn--primary"
+    btn_label: "Learn more"
+  - image_path: #/assets/images/outline_done_outline_black_48dp.png
+    alt: #"customizable"
+    title: "Tasks & Data"
+    excerpt: "HIPE 2026 features relation mining in 4 languages."
+    url: "/tasks"
+    #btn_class: "btn--inverse"
+    btn_label: "Learn more"
+  - image_path: #/assets/images/mm-responsive-feature.png
+    alt: #"fully responsive"
+    title: "Timeline & Instructions"
+    excerpt: "Important dates for participating in the shared task and Working Notes paper instructions."
+    url: "/timeline"
+    #btn_class: "btn--inverse"
+    btn_label: "Learn more"
+  - image_path: #/assets/images/outline_done_outline_black_48dp.png
+    alt: #"customizable"
+    title: "Evaluation"
+    excerpt: "Everything you need to know about HIPE evaluation metrics and tools. "
+    url: "/tasks"
+    #btn_class: "btn--primary"
+    btn_label: "Learn more"
+  - image_path: #/assets/images/mm-responsive-feature.png
+    alt: #"fully responsive"
+    title: "Workshop"
+    excerpt: "Results and system description papers will be presented at CLEF 2026 in September."
+    url: "/workshop"
+    #btn_class: "btn--primary"
+    btn_label: "Learn more"
+  - image_path: #/assets/images/mm-free-feature.png
+    alt: #"100% free"
+    title: "Organizers"
+    excerpt: "Get to know the people who spend their time (and annotated data) for HIPE 2026."
+    url: "/organizers"
+    #btn_class: "btn--primary"
+    btn_label: "Learn more"
 ---
 
 {% include feature_row %}
-
-
-
-**Latest news:**     
-
- - 09.09.2022: Thanks to all for your participations! **Slides of the Lab Overview participation** are available [here](https://doi.org/10.5281/zenodo.7064819).
- -  7-8.09.2022: HIPE-2022 Lab Overview presentation and HIPE Workshop at CLEF, both onsite and online, check the [programme](https://hipe-eval.github.io/HIPE-2022/workshop)!
- -  25.05.2022: Publication of HIPE-2022 challenge evaluation results, see [HIPE_2022_evaluation_results.md](https://github.com/hipe-eval/HIPE-2022-eval/blob/main/HIPE_2022_evaluation_results.md) in [HIPE-2022-eval](https://github.com/hipe-eval/HIPE-2022-eval); release [v2.1-test-all-unmasked](https://github.com/hipe-eval/HIPE-2022-data/releases/tag/v2.1-test-all-unmasked) of [HIPE-2022-data](https://github.com/hipe-eval/HIPE-2022-data); release [v2.0](https://github.com/hipe-eval/HIPE-scorer/releases/tag/v2.0) of [HIPE-scorer](https://github.com/hipe-eval/HIPE-scorer).    
- -  13.05.2022: Publication of HIPE-2022 track evaluation (dataset-language-task) [results](https://github.com/hipe-eval/HIPE-2022-eval/blob/main/evaluation/system-rankings/ranking_summary.md)        
- -  13.05.2022: Publication of tracks (dataset-language-task) results     
- -  11.05.2022: Results for all bundles will be published on 12.05.2022 (since bundle 5 submission was postponed)
- -  05.05.2022: Release of HIPE-2022 data **test EL-masked for bundle 5** (see the [data/v2.1](https://github.com/hipe-eval/HIPE-2022-data/tree/main/data/v2.1) github folder)
- -  26.04.2022: Release of HIPE-2022 data **test all-masked for bundle 1 to 4** (see the [data/v2.1](https://github.com/hipe-eval/HIPE-2022-data/tree/main/data/v2.1) github folder)   
- -  15.04.2022: Release of [HIPE-2022 data v2.1](https://github.com/hipe-eval/HIPE-2022-data) (see the [data/v2.1](https://github.com/hipe-eval/HIPE-2022-data/tree/main/data/v2.1) github folder, the github [release](https://github.com/hipe-eval/HIPE-2022-data/releases), and the zenodo [record](https://zenodo.org/record/6463040)).    
- -  12.04.2022: Presentation of the lab during the CLEF session at [ECIR 2022](https://ecir2022.org/). Accepted version of the Introduction to HIPE-2022 paper [here](https://hipe-eval.github.io/HIPE-2022/assets/pdf/HIPE2022_ECIR_shortpaper_postprint.pdf).    
- -  22.03.2022: Release of [HIPE-2022 data v2.0](https://github.com/hipe-eval/HIPE-2022-data) (see the [data/v2.0](https://github.com/hipe-eval/HIPE-2022-data/tree/main/data/v2.0) github folder, the github [release](https://github.com/hipe-eval/HIPE-2022-data/releases), and the zenodo [record](https://zenodo.org/record/6463040)).     
- - 15.02.2022: Release of [HIPE-2022 data v1.0](https://github.com/hipe-eval/HIPE-2022-data) and of the [Participation Guidelines](https://doi.org/10.5281/zenodo.6045662).    
- - 15.11.2021: CLEF lab **registration** open on 15 November 2021 and closes on 22 April 2022: [registration link](https://clef2022-labs-registration.dei.unipd.it/).    
- - 24.09.2021: [Lab presentation at CLEF 2021](https://docs.google.com/presentation/d/1wb08-0WROHMSGyLbWzlp5IZHhAGg-WAMLuL18i7_2MM/edit?usp=sharing)
