@@ -12,7 +12,7 @@ header:
   # - label: "<i class='fas fa-download'></i> Install now"
   #   url: "/docs/quick-start-guide/"
 excerpt: >
-  Shared Task on Named Entity Recognition and Linking in Multilingual Historical Documents
+  Evaluating Accurate and Efficient Person–Place Relation Extraction from Multilingual Historical Texts
 
 #{% include feature_row %}
 #test here
