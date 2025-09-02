@@ -133,9 +133,9 @@ footer:
     - label: "HIPE 2026 Mailing List"
       icon: "fas fa-fw fa-envelope-square"
       url: "https://groups.google.com/g/hipe-2026"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: 'https://twitter.com/impressoproject'
+    - label: "Mastodon"
+      icon: "fab fa-fw fa-mastodon"
+      url: 'https://fedihum.org/@impresso'
 
 
 # Reading Files

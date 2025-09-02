@@ -3,7 +3,7 @@ title: HIPE-2026 Shared Task
 permalink: about
 ---
 
-### HIPE-2026: Evaluating Accurate and Efficient Person–Place Relation Extraction
+### HIPE-2026: Evaluating Accurate and Efficient Person-Place Relation Extraction
 
 Following the successful evaluation labs in 2020 and 2022 on named entity processing, the third edition of the HIPE shared task will focus on **Person-Place Relation Mining in Historical Documents**.
 
