@@ -45,6 +45,4 @@ The main **challenges** of the HIPE-2022 edition were:
 
 ### Registration and Mailing list
 
-CLEF lab registration opens on 15 November 2021 and closes on 22 April 2022 ([registration link](https://clef2022-labs-registration.dei.unipd.it/)).
-
-Please mail to our [HIPE 2022 mailing list](https://groups.google.com/g/hipe-2022) for any questions.
+Please mail to our [HIPE 2026 mailing list](https://groups.google.com/g/hipe-2026) for any questions.
