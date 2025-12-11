@@ -34,7 +34,7 @@ For full details on task setup, data, and evaluation criteria, please see the [T
 HIPE-2026 features two evaluation profiles:
 
 1. **Accuracy Profile** – Focusing on system performance in relation classification.
-2. **Efficiency Profile** – Rewarding scalable, lightweight approaches considering model size and compute cost.3
+2. **Efficiency Profile** – Rewarding scalable, lightweight approaches considering model size and compute cost.
 3. **Generalization** – An unseen dataset from a different domain will be included to test generalization.
 
 ---

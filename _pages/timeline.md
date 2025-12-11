@@ -34,7 +34,7 @@ Please also refer to the general timeline of CLEF 2026 for now: [CLEF 2026 Dates
 
 ## Guidelines
 
-We uploaded the guidelines to Zenodo. Here's [the link](https://zenodo.org/records/17800136).
+The Participation Guidelines are available on Zenodo. Here's [the link](https://zenodo.org/records/17800136).
 
 ## Working Note Paper Instructions
 
