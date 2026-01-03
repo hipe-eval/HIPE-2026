@@ -14,7 +14,8 @@ permalink: timeline
 
 * **17 Nov 2025 (Mon)**: [Lab registration](https://clef2026.clef-initiative.eu/) opens. 
 * **03 Dec 2025 (Wed)**: First release of [training example data](https://github.com/hipe-eval/HIPE-2026-data/tree/main/data). Release of [Participation Guidelines](https://zenodo.org/records/17800136).
-* **19 Dec 2025 (Fri)**: Additional release of [training example data](https://github.com/hipe-eval/HIPE-2026-data/tree/main/data), Release of submission format checker and evaluation scorer. 
+* **19 Dec 2025 (Fri)**: Additional release of [training example data](https://github.com/hipe-eval/HIPE-2026-data/tree/main/data), Release of submission format checker and evaluation scorer.
+* **01 Jan 2026 (Mon)**: We release additional data called [sandbox](https://github.com/hipe-eval/HIPE-2026-data/tree/main/data/sandbox). It is a larger amount of high-quality automatic LLM-based annotations for proto-typing, training, or any other purposes.
 * **19 Jan 2026 (Mon)**: Release of final training data.
 * **23 Apr 2026 (Thu)**: Lab registration closes.
 * **05 May 2026 (Tue)**: Test data release (10:00 CEST).  
