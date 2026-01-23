@@ -16,7 +16,7 @@ permalink: timeline
 * **03 Dec 2025 (Wed)**: First release of [training example data](https://github.com/hipe-eval/HIPE-2026-data/tree/main/data/newspapers/v1.0). Release of [Participation Guidelines](https://zenodo.org/records/17800136).
 * **19 Dec 2025 (Fri)**: Additional release of [training example data](https://github.com/hipe-eval/HIPE-2026-data/tree/main/data/newspapers/v1.0), Release of submission format checker and evaluation scorer.
 * **01 Jan 2026 (Mon)**: We release additional data called [sandbox](https://github.com/hipe-eval/HIPE-2026-data/tree/main/data/sandbox) with "silver" quality data. This is a larger amount of high-quality automatic LLM-based annotations for proto-typing, training, or any other purposes.
-* **21 Jan 2026 (Wed)**: Release of final training data. Please find it [here](https://github.com/hipe-eval/HIPE-2026-data/tree/main/data/newspapers/v1.0). 932 annotated relations in 34 Historical German articles; 614 annotated relations in 35 Historical English articles; 956 annotated relations in 35 Historical French articles.
+* **21 Jan 2026 (Wed)**: Release of final training data. Please find the extended data [here](https://github.com/hipe-eval/HIPE-2026-data/tree/main/data/newspapers/v1.0). 932 annotated relations in 34 Historical German articles; 614 annotated relations in 35 Historical English articles; 956 annotated relations in 35 Historical French articles.
 * **23 Apr 2026 (Thu)**: Lab registration closes.
 * **05 May 2026 (Tue)**: Test data release (10:00 CEST).  
 * **07 May 2026 (Thu)**: Participant system response submission deadline (20:00 CEST).  
