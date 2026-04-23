@@ -3,6 +3,10 @@ title: Tasks & Data
 permalink: tasks
 ---
 
+Important Link:
+
+**Task Data and Evaluation**: https://github.com/hipe-eval/hipe-2026-data
+
 ## Task Overview
 
 HIPE-2026 is a shared task on **person–place relation extraction** from **multilingual historical texts**. The goal is to assess whether a relation holds between a person and a place mentioned in a document — and to classify that relation with respect to its **temporal scope**.
