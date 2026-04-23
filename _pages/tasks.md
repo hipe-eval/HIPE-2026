@@ -5,7 +5,7 @@ permalink: tasks
 
 Important Link:
 
-**Task Data and Evaluation**: https://github.com/hipe-eval/hipe-2026-data
+[**Task Data and Scorer (GitHub Link)**](https://github.com/hipe-eval/hipe-2026-data)
 
 ## Task Overview
 
