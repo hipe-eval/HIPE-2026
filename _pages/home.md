@@ -30,7 +30,7 @@ feature_row:
   - image_path: #/assets/images/outline_done_outline_black_48dp.png
     alt: #"customizable"
     title: "Tasks & Data"
-    excerpt: "HIPE 2026 features relation mining in 4 languages."
+    excerpt: "HIPE 2026 features relation mining in 3 languages and two domains (historical news texts and a surprise domain)."
     url: "/tasks"
     #btn_class: "btn--inverse"
     btn_label: "Learn more"
