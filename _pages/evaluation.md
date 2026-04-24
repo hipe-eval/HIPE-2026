@@ -9,7 +9,13 @@ The HIPE-2026 evaluation infrastructure is designed to ensure fair, transparent,
 
 Efficiency-related factors — such as model size and space usage — will be collected via metadata forms submitted by participants. These indicators will be used to rank systems within the efficiency profile, where cost-effective, scalable approaches are encouraged (more details in our [guidelines](https://zenodo.org/records/17800136)).
 
-All evaluation tools, baseline resources, and submission templates will be made publicly available in our [data github repository](https://github.com/hipe-eval/hipe-2026-data) to support reproducibility and broad participation. 
+All evaluation tools, baseline resources, and submission templates will be made publicly available in our [data github repository](https://github.com/hipe-eval/hipe-2026-data) to support reproducibility and broad participation (all eval repositories will be made public after the competition).
+
+## Minimal Baseline
+
+We provide a minimal baseline implementation to help participants get started. The baseline code is available at [hipe-eval/hipe-2026-llm-baseline](https://github.com/hipe-eval/hipe-2026-llm-baseline). You can find detailed documentation and setup instructions in the [baseline README](https://github.com/hipe-eval/hipe-2026-llm-baseline/blob/main/README.md).
+
+Baseline results evaluated on train sets using Mistral 3B Insruct (`mistralai/Ministral-3-3B-Instruct-2512`) can be found in the [archive results directory](https://github.com/hipe-eval/hipe-2026-llm-baseline/tree/archive/baseline-v0.1.0-results/results.d).
 
 ---
 
