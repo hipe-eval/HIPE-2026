@@ -3,6 +3,8 @@ title: Evaluation
 permalink: evaluation
 ---
 
+**News 2026/05/05**: Test phase started, and [Official test set](https://github.com/hipe-eval/HIPE-2026-data/tree/main/official_test_unlabeled) is released. Submission: 2026/05/07. All dates are AoE.
+
 ## Evaluation Infrastructure
 
 The HIPE-2026 evaluation infrastructure is designed to ensure fair, transparent, and reproducible assessment across both accuracy- and efficiency-focused system submissions. Participants will submit predictions on two blind test sets using a standardized format. The first data set ("Test Set A") comprises texts from the historical news domain and is used for ranking the main accuracy profile, the second is a suprise test set for evaluating accuracy in an out-of-domain generalization profile ("Test Set B"). Official scoring scripts will compute core classification metrics, using macro-averaged Recall (aka balanced accuracy) as the main measure (more details in our [guidelines](https://zenodo.org/records/17800136)).

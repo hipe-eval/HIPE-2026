@@ -19,7 +19,7 @@ permalink: timeline
 * **21 Jan 2026 (Wed)**: Release of final training data. Please find the extended data [here](https://github.com/hipe-eval/HIPE-2026-data/tree/main/data/newspapers/v1.0). 932 annotated relations in 34 Historical German articles; 614 annotated relations in 35 Historical English articles; 956 annotated relations in 35 Historical French articles.
 * **19 Feb 2026 (Thu)**: HIPLE-CLEF 2026 task will be introduced also at European Conference for Information Retrieval (ECIR). The [preprint](https://arxiv.org/abs/2602.17663) of the proceedings paper is now available!
 * **23 Apr 2026 (Thu)**: Lab registration closes.
-* **05 May 2026 (Tue)**: Test data release (AoE).  
+* **05 May 2026 (Tue)**: Test data release (AoE). Official testset: [this link](https://github.com/hipe-eval/HIPE-2026-data/tree/main/official_test_unlabeled).
 * **07 May 2026 (Thu)**: Participant system response submission deadline (AoE).  
 * **13 May 2026 (Wed)**: Publication of results and release of test data.  
 * **28 May 2026 (Thu)**: Submission of participant notebook paper.
