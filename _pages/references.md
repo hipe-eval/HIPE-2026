@@ -7,7 +7,7 @@ permalink: references
 
 - **ECIR Introduction Short Paper:**
 
-J. Opitz, C. Raclé, E. Boros, A. Michail, M. Romanello, M. Ehrmann, and S. Clematide. 2026. CLEF HIPE-2026: Evaluating Accurate and Efficient Person–Place Relation Extraction from Multilingual Historical Texts. In Advances in Information Retrieval, 2026. Springer Nature Switzerland, Cham, 354–363. https://doi.org/10.1007/978-3-032-21321-1_46 (post print available at: https://infoscience.epfl.ch/handle/20.500.14299/262790 )
+J. Opitz, C. Raclé, E. Boros, A. Michail, M. Romanello, M. Ehrmann, and S. Clematide. 2026. [CLEF HIPE-2026: Evaluating Accurate and Efficient Person–Place Relation Extraction from Multilingual Historical Texts](https://infoscience.epfl.ch/handle/20.500.14299/262790). In Advances in Information Retrieval, 2026. Springer Nature Switzerland, Cham, 354–363. [https://doi.org/10.1007/978-3-032-21321-1_46](https://doi.org/10.1007/978-3-032-21321-1_46) (post print available [here](https://infoscience.epfl.ch/handle/20.500.14299/262790)).
 
 
 **About HIPE-2022**
