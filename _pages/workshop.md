@@ -80,12 +80,12 @@ Once the CEUR-WS Working Notes are published, they **cannot be modified** — in
 
 ### Cross-references between the HIPE Overview Paper and Participant Working Notes Papers
 
-We intend to cite accepted participant papers in the extended HIPE overview, and we encourage participants to cite the HIPE overview in their working notes papers. To facilitate this, the bibliographic details for both CLEF 2026 publication venues are provided below.
-
-The organisers will publish two overview papers:
+Shared task organisers will publish two overview papers:
 
 * A **condensed overview** in the CLEF 2026 LNCS proceedings
 * An **extended overview** in the CEUR-WS Working Notes
+
+We intend to cite accepted participant papers in the extended HIPE overview, and we encourage participants to cite the HIPE overview in their working notes papers. To facilitate this, the bibliographic details for both CLEF 2026 publication venues are provided below.
 
 The titles of both overviews will follow the format **"Overview of HIPE 2026 [— subtitle]"** and will be communicated in due course.
 
