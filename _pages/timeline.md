@@ -22,22 +22,20 @@ permalink: timeline
 * **05 May 2026 (Tue)**: Test data release (AoE). Official testset: [this link](https://github.com/hipe-eval/HIPE-2026-data/tree/main/official_test_unlabeled).
 * **07 May 2026 (Thu)**: Participant system response submission deadline (AoE).  
 * **13 May 2026 (Wed)**: Publication of results and release of test data.  
-* **28 May 2026 (Thu)**: Submission of participant notebook paper.
-* **25 Jun 2026 (Thu)**: Notebook paper submission.  
-* **30 Jun 2026 (Tue)**: Notebook paper notification.  
-* **06 Jul 2026 (Mon)**: Notebook paper camera-ready version.  
-* **10 Jul 2026 (Fri)**: CLEF conference regular registration ends.  
-* **31 Aug 2026 (Mon)**: CLEF conference late registration ends.  
-* **21 Sep 2026 (Mon)**: CLEF 2026 Conference.  
+* **28 May 2026 (Thu)**: Short system description to be sent to organizers. 
+* **28 May 2026 (Thu)**: Submission of participant working notes papers.
+* **25 Jun 2026 (Thu)**: End of review process.
+* **30 Jun 2026 (Tue)**: Notification of acceptance for participant papers.
+* **06 Jul 2026 (Mon)**: Camera-ready submission of participant papers.
+* **10 Jul 2026 (Fri)**: CLEF conference regular registration ends.
+* **21–25 Jul 2026**: CLEF Working Notes preview — authors and organizers check for errors before final publication.
+* **31 Aug 2026 (Mon)**: CLEF conference late registration ends.
+* **21 Sep 2026 (Mon)**: CLEF 2026 Conference.
 
-All times are AoE (Anywhere on Earth).
+All deadlines are AoE (Anywhere on Earth) unless otherwise noted.
 
 Please also refer to the general timeline of CLEF 2026 for now: [CLEF 2026 Dates](https://clef2026.clef-initiative.eu/dates/)
 
 ## Guidelines
 
-The Participation Guidelines are available on Zenodo. Here's [the link](https://zenodo.org/records/17800136).
-
-## Working Note Paper Instructions
-
-[Will be completed in due time]
+The Participation Guidelines are available on Zenodo: [link](https://zenodo.org/records/17800136).
