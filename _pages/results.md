@@ -9,7 +9,7 @@ Results will be published following a two-phase process designed to give each te
 
 ### Phase 1 — Preliminary Results (Anonymised) | Wed 13 May 2026
 
-Anonymised preliminary results will be published on this page (high-level aggregated results, with each team identified by a key). The HIPE evaluation GitHub repository will also be made public at this stage, including:
+Anonymised preliminary results will be published on this page (high-level aggregated results, with each team identified by a key). The **HIPE-2026 evaluation GitHub repository** will also be made public at this stage, including:
 - the anonymised overview results table
 - all system submission files
 - per-run evaluation report files
