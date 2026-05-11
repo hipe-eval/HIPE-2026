@@ -39,3 +39,7 @@ Please also refer to the general timeline of CLEF 2026 for now: [CLEF 2026 Dates
 ## Guidelines
 
 The Participation Guidelines are available on Zenodo: [link](https://zenodo.org/records/17800136).
+
+## Working Notes Instructions
+
+We follow the instructions of CLEF 2026: Participants are expected to submit a short system description paper. Templates are available on [this link](https://clef2026.clef-initiative.eu/calls/submitting/#labs-working-notes--task-overview-papers). More information on the easychair submission platform and peer review mode will follow shortly.
