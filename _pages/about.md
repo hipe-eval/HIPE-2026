@@ -31,11 +31,26 @@ For full details on task setup, data, and evaluation criteria, please see the [T
 
 ### Evaluation Profiles
 
-HIPE-2026 features two evaluation profiles:
+HIPE-2026 features three evaluation profiles:
 
 1. **Accuracy Profile** – Focusing on system performance in relation classification.
 2. **Efficiency Profile** – Rewarding scalable, lightweight approaches considering model size and compute cost.
 3. **Generalization** – An unseen dataset from a different domain will be included to test generalization.
+
+---
+
+### Organizers
+
+HIPE-2026 is organized by:
+
+- Juri Opitz — University of Zurich, Switzerland
+- Maud Ehrmann — EPFL, Switzerland
+- Simon Clematide — University of Zurich, Switzerland
+- Matteo Romanello — University of Zurich (SARI), Switzerland
+- Emanuela Boros — EPFL, Switzerland
+- Andrianos Michail — University of Zurich, Switzerland
+
+See the [Organizers](/HIPE-2026/organizers) page for details on the organizing team and partner projects.
 
 ---
 

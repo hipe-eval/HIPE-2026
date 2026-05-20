@@ -3,23 +3,57 @@ title: Evaluation
 permalink: evaluation
 ---
 
-**News 2026/05/05**: Test phase started, and [Official test set](https://github.com/hipe-eval/HIPE-2026-data/tree/main/official_test_unlabeled) is released. Submission: 2026/05/07. All dates are AoE.
+**News 2026/05/19**: Official HIPE-2026 results are now available on the [Results](/HIPE-2026/results) page, including generated reports, ranking tables, diagnostics, and downloadable result archives.
 
-## Evaluation Infrastructure
+**News 2026/05/05**: The test phase started, and the [official test set](https://github.com/hipe-eval/HIPE-2026-data/tree/main/official_test_unlabeled) was released. The submission deadline was 2026/05/07 AoE.
 
-The HIPE-2026 evaluation infrastructure is designed to ensure fair, transparent, and reproducible assessment across both accuracy- and efficiency-focused system submissions. Participants will submit predictions on two blind test sets using a standardized format. The first data set ("Test Set A") comprises texts from the historical news domain and is used for ranking the main accuracy profile, the second is a suprise test set for evaluating accuracy in an out-of-domain generalization profile ("Test Set B"). Official scoring scripts will compute core classification metrics, using macro-averaged Recall (aka balanced accuracy) as the main measure (more details in our [guidelines](https://zenodo.org/records/17800136)).
+## On This Page
 
-Efficiency-related factors — such as model size and space usage — will be collected via metadata forms submitted by participants. These indicators will be used to rank systems within the efficiency profile, where cost-effective, scalable approaches are encouraged (more details in our [guidelines](https://zenodo.org/records/17800136)).
+- [Evaluation Overview](#evaluation-overview)
+- [Evaluation Profiles](#evaluation-profiles)
+- [Metrics](#metrics)
+- [Efficiency Metadata](#efficiency-metadata)
+- [Resources](#resources)
+- [Minimal Baseline](#minimal-baseline)
 
-All evaluation tools, baseline resources, and submission templates will be made publicly available in our [data github repository](https://github.com/hipe-eval/hipe-2026-data) to support reproducibility and broad participation (all eval repositories will be made public after the competition).
+## Evaluation Overview
+
+The HIPE-2026 evaluation infrastructure supports fair, transparent, and reproducible assessment of person-place relation extraction systems. Participants submitted predictions for blind test data in a standardized JSONL format, and the official scorer produced per-run scores, rankings, diagnostics, and downloadable result archives.
+
+The official results are available on the [Results](/HIPE-2026/results) page. The evaluation code, submitted systems, generated reports, and diagnostics are available in the [evaluation repository](https://github.com/hipe-eval/hipe-2026-eval).
+
+## Evaluation Profiles
+
+HIPE-2026 reports three main evaluation profiles:
+
+- **Accuracy Profile**: performance on the multilingual `impresso` newspaper test data.
+- **Generalization Profile**: performance on the out-of-domain `surprise` test data.
+- **Accuracy-Efficiency Profile**: a combined view of system performance and model footprint.
+
+The original participation guidelines describe these as Test A and Test B. On the website and in the generated reports, we use the dataset names `impresso` and `surprise` to make the profile tables easier to interpret.
+
+## Metrics
+
+The primary official ranking criterion is macro-averaged Recall, also known as balanced accuracy. This gives each label equal weight and is therefore more informative than plain accuracy when labels are imbalanced.
+
+The generated reports also include accuracy and additional macro-averaged metrics where relevant. More details are available in the [participation guidelines](https://zenodo.org/records/17800136).
+
+## Efficiency Metadata
+
+Participants submitted metadata about model size and parameter count for each run. These values are used for the efficiency-oriented profiles, where cost-effective and scalable approaches are encouraged alongside strong prediction quality.
+
+## Resources
+
+The main public resources are:
+
+- [Task data and scorer](https://github.com/hipe-eval/HIPE-2026-data)
+- [Evaluation repository, submissions, and results](https://github.com/hipe-eval/hipe-2026-eval)
+- [Official results page](/HIPE-2026/results)
 
 ## Minimal Baseline
 
-We provide a minimal baseline implementation to help participants get started. The baseline code is available at [hipe-eval/hipe-2026-llm-baseline](https://github.com/hipe-eval/hipe-2026-llm-baseline). You can find detailed documentation and setup instructions in the [baseline README](https://github.com/hipe-eval/hipe-2026-llm-baseline/blob/main/README.md).
+We provide a minimal baseline implementation to help participants get started. The baseline code is available at [hipe-eval/hipe-2026-llm-baseline](https://github.com/hipe-eval/hipe-2026-llm-baseline), with setup instructions in the [baseline README](https://github.com/hipe-eval/hipe-2026-llm-baseline/blob/main/README.md).
 
-Baseline results evaluated on train sets using Mistral 3B Insruct (`mistralai/Ministral-3-3B-Instruct-2512`) can be found in the [archive results directory](https://github.com/hipe-eval/hipe-2026-llm-baseline/tree/archive/baseline-v0.1.0-results/results.d).
+The baseline run is included in the official rankings and generated reports on the [Results](/HIPE-2026/results) page.
 
----
-
-Please check back or follow updates via the [mailing
-list](https://groups.google.com/g/hipe-2026).
+Please follow updates via the [mailing list](https://groups.google.com/g/hipe-2026).

@@ -28,3 +28,38 @@ $max-width: $x-large !default;
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+.page__content table {
+  border-collapse: separate;
+  border-spacing: 0;
+  margin-top: 1rem;
+  margin-bottom: 1.75rem;
+}
+
+.page__content th {
+  text-transform: capitalize;
+}
+
+.page__content th,
+.page__content td {
+  padding: 0.65rem 0.8rem;
+}
+
+// Rendered report pages contain very wide generated tables. Use the normal
+// Minimal Mistakes single-page layout, but give the table report body a modest
+// viewport-relative inset so it does not start at the browser edge.
+@media (min-width: $large) {
+  .table-report #main {
+    max-width: none;
+    padding-left: clamp(1.5rem, 3vw, 3.5rem);
+    padding-right: clamp(1.5rem, 3vw, 3.5rem);
+  }
+
+  .table-report .page {
+    width: 100%;
+  }
+
+  .table-report .page__content {
+    max-width: none;
+  }
+}

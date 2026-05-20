@@ -1,0 +1,89 @@
+{
+  "submission": "team2_HIPE-2026-v1.0-surprise-test-fr_run1.jsonl",
+  "reference": "HIPE-2026-v1.0-surprise-test-fr.jsonl",
+  "team": "team2",
+  "dataset": "surprise",
+  "split": "test",
+  "language": "fr",
+  "run": "run1",
+  "at_label_mode": "TERNARY",
+  "confusion_matrices": {
+    "at": {
+      "labels": [
+        "TRUE",
+        "PROBABLE",
+        "FALSE"
+      ],
+      "matrix": [
+        [
+          93,
+          8,
+          29
+        ],
+        [
+          40,
+          6,
+          14
+        ],
+        [
+          172,
+          39,
+          79
+        ]
+      ],
+      "rows": "gold",
+      "columns": "prediction",
+      "total": 480,
+      "table": [
+        {
+          "gold": "TRUE",
+          "pred_TRUE": 93,
+          "pred_PROBABLE": 8,
+          "pred_FALSE": 29
+        },
+        {
+          "gold": "PROBABLE",
+          "pred_TRUE": 40,
+          "pred_PROBABLE": 6,
+          "pred_FALSE": 14
+        },
+        {
+          "gold": "FALSE",
+          "pred_TRUE": 172,
+          "pred_PROBABLE": 39,
+          "pred_FALSE": 79
+        }
+      ],
+      "accuracy": 0.3708,
+      "per_label": {
+        "TRUE": {
+          "precision": 0.3049,
+          "recall": 0.7154,
+          "f1": 0.4276,
+          "support": 130,
+          "true_positive": 93,
+          "false_positive": 212,
+          "false_negative": 37
+        },
+        "PROBABLE": {
+          "precision": 0.1132,
+          "recall": 0.1,
+          "f1": 0.1062,
+          "support": 60,
+          "true_positive": 6,
+          "false_positive": 47,
+          "false_negative": 54
+        },
+        "FALSE": {
+          "precision": 0.6475,
+          "recall": 0.2724,
+          "f1": 0.3835,
+          "support": 290,
+          "true_positive": 79,
+          "false_positive": 43,
+          "false_negative": 211
+        }
+      }
+    }
+  }
+}
