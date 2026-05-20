@@ -12,10 +12,10 @@ main:
     url: 'timeline'
   - title: Workshop
     url: 'workshop'
-  - title: References
-    url: 'references'
   - title: Organizers
     url: 'organizers'
+  - title: References
+    url: 'references'
 
 # Dates
 # Datasets
