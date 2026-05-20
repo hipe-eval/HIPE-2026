@@ -49,6 +49,7 @@ HIPE-2026 is organized by:
 - Matteo Romanello — University of Zurich (SARI), Switzerland
 - Emanuela Boros — EPFL, Switzerland
 - Andrianos Michail — University of Zurich, Switzerland
+- Corina Raclé — University of Zurich, Switzerland
 
 See the [Organizers](/HIPE-2026/organizers) page for details on the organizing team and partner projects.
 

@@ -1,4 +1,5 @@
 ---
+title: false
 permalink: /HIPE_2026_evaluation_results/
 layout: single
 classes: wide table-report

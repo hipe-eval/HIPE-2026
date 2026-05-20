@@ -25,6 +25,9 @@ The HIPE-2026 lab is organized by an interdisciplinary team with expertise in na
 - Andrianos Michail — University of Zurich, Switzerland  
   PhD researcher with top-performing shared task submissions and extensive mentoring experience.
 
+- Corina Raclé — University of Zurich, Switzerland  
+  Student assistant responsible for data preprocessing, sampling, and the annotation process.
+
 ## Partner Projects and Data Providers
 
 - [Impresso — _Media Monitoring of the Past_](https://impresso-project.ch)  
