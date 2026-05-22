@@ -43,11 +43,11 @@ feature_row:
     btn_label: "Learn more"
   - image_path: #/assets/images/outline_done_outline_black_48dp.png
     alt: #"customizable"
-    title: "Evaluation"
-    excerpt: "Everything you need to know about HIPE evaluation metrics and tools. "
-    url: "/tasks"
+    title: "Official Results"
+    excerpt: "Official HIPE-2026 rankings, generated reports, diagnostics, and downloadable result artifacts."
+    url: "/results"
     #btn_class: "btn--primary"
-    btn_label: "Learn more"
+    btn_label: "View results"
   - image_path: #/assets/images/mm-responsive-feature.png
     alt: #"fully responsive"
     title: "Workshop"

@@ -28,3 +28,10 @@ codekit-config.json
 _asset_bundler_cache
 _site
 
+_site/
+.jekyll-cache/
+.bundle/
+vendor/
+Gemfile.lock
+.DS_Store
+assets/.DS_Store

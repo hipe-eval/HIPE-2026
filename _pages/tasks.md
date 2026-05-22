@@ -3,9 +3,15 @@ title: Tasks & Data
 permalink: tasks
 ---
 
-Important Link:
+## On This Page
 
-[**Task Data and Scorer (GitHub Link)**](https://github.com/hipe-eval/hipe-2026-data)
+- [Task Overview](#task-overview)
+- [Relation Types](#relation-types)
+- [Input and Output Format](#input-and-output-format)
+- [Evaluation Profiles](#evaluation-profiles)
+- [Datasets](#datasets)
+- [Baseline and Starter Code](#baseline-and-starter-code)
+
 
 ## Task Overview
 
@@ -15,8 +21,6 @@ Participants are asked to build systems that, given a historical document and a 
 entities, will classify all possible `(person, place)` pairs into one of **three
 evidence-based labels** for each of two relation types. The task is designed to be
 tackled by generative AI systems/LLMs as well as more traditional classification approaches.
-
----
 
 ## Relation Types
 
@@ -30,11 +34,10 @@ This design supports different downstream goals — from **spatial biographies**
 <div style="text-align: center;">
   <img src="/HIPE-2026/assets/images/schema-temporalscope.png" alt="Motivation" style="width: 75%;"/>
 </div>
----
 
 ## Input and Output Format
 
-Each document will be provided as a JSON with:
+Each document is provided as JSON with:
 
 - Full article text (OCR with possible errors)
 - A list of **person entities** (de-duplicated by surface form or linked ID)
@@ -47,21 +50,18 @@ Participants must return a classification for each possible `(person, place, rel
 - `PROBABLE`: plausible inference can be made from context
 - `FALSE`: no evidence or explicitly contradicted
 
----
-
 ### Realistic Example from Historical Data
 
 This example illustrates a real instance of the HIPE-2026 task using an article from the _Gazette de Lausanne_ dated 1928-05-06. It involves multiple persons and places, various temporal scopes, and differing levels of textual evidence.
 
----
 
-#### 📄 Article Context
+#### Article Context
 
 <table>
   <thead>
     <tr>
-      <th style="width: 50%; font-size: 0.9em;">🇫🇷 Original French OCR</th>
-      <th style="width: 50%; font-size: 0.9em;">🇬🇧 Automatic English Translation</th>
+      <th style="width: 50%; font-size: 0.9em;">Original French OCR</th>
+      <th style="width: 50%; font-size: 0.9em;">Automatic English Translation</th>
     </tr>
   </thead>
   <tbody>
@@ -115,7 +115,7 @@ This example illustrates a real instance of the HIPE-2026 task using an article 
   </tbody>
 </table>
 
-#### 🔑 Annotated Relation Table
+#### Annotated Relation Table
 
 | Person                                                              | Place        | `at`  | `isAt` |
 | ------------------------------------------------------------------- | ------------ | ----- | ------ |
@@ -135,9 +135,7 @@ This example illustrates a real instance of the HIPE-2026 task using an article 
 | Dr. Doxiadès, ancien ministre, président de la Ligue patriotique... | Athènes      | TRUE  | TRUE   |
 | Dr. Doxiadès, ancien ministre, président de la Ligue patriotique... | Corinthe     | FALSE | FALSE  |
 
----
-
-### Download Example Data
+#### Download Example Data
 
 Please download the Excel file below for seven more examples and specifications on the annotation scheme.
 
@@ -145,63 +143,47 @@ Please download the Excel file below for seven more examples and specifications 
   Download Examples
 </a>
 
----
-
 ## Evaluation Profiles
 
-To reflect different research and application priorities, HIPE-2026 will offer three profiles:
+HIPE-2026 reports three evaluation profiles:
 
-1. **Accuracy Profile**:  
-   Ranking based on macro-averaged Recall (aka balanced accuracy) per relation type. 
+1. **Accuracy Profile**: ranking on the multilingual `impresso` newspaper test data, based primarily on macro-averaged Recall (balanced accuracy).
 
-2. **Efficiency Profile**:  
-   Ranking based on a composite metric balancing accuracy with:
-   - Model size
-   - Inference time
-   - Hardware usage
-   - Availability as open-source or low-cost system
+2. **Generalization Profile**: evaluation on the out-of-domain `surprise` test data.
 
-3. **Generalization Profile**:
-   Generalization accuracy assessment on the surprise Test Set B.
+3. **Accuracy-Efficiency Profile**: ranking that combines prediction quality with model footprint metadata such as parameter count and model size.
 
 Please find more details in the [Participation Guidelines](https://zenodo.org/records/17800136).
 
----
-
 ## Datasets
 
-We will release two datasets for the task:
+The task uses two dataset families. The original participation guidelines describe these as Test Set A and Test Set B; the website and generated reports use the dataset names `impresso` and `surprise`.
 
-### 🧪 Development & Test Set A
+### Development and `impresso` Data
 
-- Derived mostly from the HIPE-2022 datasets
-- Languages: **French, German, English, Luxembourgish**
+- Historical newspaper material derived mostly from the HIPE-2022 datasets
+- Public resources include French, German, English, and Luxembourgish material
+- The official `impresso` test ranking uses German, English, and French
 - Contains manually validated relation labels for pre-annotated person/place entities
 - Includes metadata for temporal reasoning
 
-### 🎭 Surprise Test Set B
+### `surprise` Data
 
-- Literary corpus from the **16th–18th century**
-- French-language texts annotated for NER and now enriched with relation labels
-  (restricted to the `at` relation type)
+- French literary corpus from the **16th–18th century**
+- Annotated for NER and enriched with relation labels
+- Restricted to the `at` relation type for evaluation
 - Designed to evaluate **domain generalization**
 
-All data will be released under **CC-BY 4.0** and distributed via **Zenodo**, with mirrored repositories on **GitHub**.
+All data is distributed under **CC-BY 4.0**, with public resources available through GitHub and archived releases.
 
----
+## Baseline and Starter Code
 
-## Baselines and Starter Code
-
-We will provide:
+The public resources include:
 
 - Input/output templates
-- Scoring script
+- Scoring scripts
 - A baseline system based on LLM prompting
-- Pre-built notebooks for data exploration
-
-Details and links will be added here once released.
-
----
+- Evaluation reports, diagnostics, and submitted runs in the evaluation repository
 
 ## Questions?
 

@@ -3,24 +3,237 @@ title: HIPE 2026 evaluation results
 permalink: results
 ---
 
-## Results
+## On This Page
 
-Results will be published following a two-phase process designed to give each team the opportunity to verify their results before public release.
+- [Official Results](#official-results)
+- [Main Results](#main-results)
+- [Accuracy Profile Ranking](#accuracy-profile-ranking)
+- [Generalization Profile Ranking](#generalization-profile-ranking)
+- [Accuracy-Efficiency Profile Ranking](#accuracy-efficiency-profile-ranking)
+- [Dataset-Specific Evaluations](#dataset-specific-evaluations)
+- [Additional Balanced Accuracy-Efficiency Analysis](#additional-balanced-accuracy-efficiency-analysis)
+- [Additional Binary Analysis](#additional-binary-analysis)
+- [Reproducibility](#reproducibility)
 
-### Phase 1 — Preliminary Results (Anonymised) | Wed 13 May 2026
+## Official Results
 
-Anonymised preliminary results will be published on this page (high-level aggregated results, with each team identified by a key). The **HIPE-2026 evaluation GitHub repository** will also be made public at this stage, including:
-- the anonymised overview results table
-- all system submission files
-- per-run evaluation report files
+We evaluated submissions across three main profiles: **Accuracy** using macro Recall, **Generalization** on an unseen test set, and **Accuracy-Efficiency**, which highlights systems that combine strong performance with a lighter model footprint -- an important aspect for sustainable and in-house processing of large historical text collections.
 
-Each team will receive an individual email with their team key, so they can identify and examine their own results in the repository.
+### Accuracy Ranking -- Top 3 Teams
 
-**Two actions are required from each team by Mon 18 May 2026, 12:00 CEST:**
+| rank | team | affiliation |
+| --- | --- | --- |
+| 1 | Spinfo | Universität zu Köln |
+| 2 | MaxFo-Ajie | Foshan University |
+| 3 | whereami | Alexandria University |
 
-1. **Report any evaluation issues.** If you identify any inconsistencies or problems with the evaluation of your runs, please report them to us by this deadline.
-2. **Confirm name disclosure — or request anonymity.** Results will be de-anonymised by default in Phase 2. If you do not wish your team name and affiliation to appear in the public results, please inform us by this deadline.
+### Generalization Ranking -- Top 3 Teams
 
-### Phase 2 — Official Results (De-anonymised) | Tue 19 May 2026
+| rank | team | affiliation |
+| --- | --- | --- |
+| 1 | MaxFo-Ajie | Foshan University |
+| 2 | Spinfo | Universität zu Köln |
+| 3 | BIU_NLP | Bar-Ilan University |
 
-Official results will be announced and published on this page. Team keys will be replaced by team names and affiliations (except where anonymity has been requested), and the updated results table will be published on this page and in the GitHub repository.
+### Accuracy-Efficiency Ranking -- Top 3 Teams
+
+| rank | team | affiliation |
+| --- | --- | --- |
+| 1 | MILRIT | University of Toulouse & La Rochelle University |
+| 2 | FI Code | University of the Bundeswehr |
+| 3 | DS@GT_HIPE | Georgia Institute of Technology |
+
+Full generated reports: [official evaluation report](/HIPE-2026/HIPE_2026_evaluation_results/) and [additional binary evaluation report](/HIPE-2026/HIPE_2026_evaluation_results-binary/).
+
+Many congratulations to the top-ranked teams!
+
+We also warmly thank all participating teams for their contributions. In total, **17 teams** participated, submitting **45 runs**. Beyond the main rankings, several teams achieved strong results in language-specific evaluations or offered useful accuracy-efficiency trade-offs.
+
+
+## Main Results
+
+The official ranking uses the ternary `at` labels `TRUE`, `PROBABLE`, and `FALSE`. The tables below replicate the main aggregated profile rankings from the generated [official evaluation report](/HIPE-2026/HIPE_2026_evaluation_results/). Dataset-specific tables, diagnostics links, score definitions, and additional efficiency tables are linked below rather than repeated on this page.
+
+- [Download complete official results archive](/HIPE-2026/assets/results/ternary/results.d.zip), including all per-run scores, diagnostics, diagnostic metrics, and validation files.
+
+### Accuracy Profile Ranking
+
+| rank | team | affiliation | run | mean impresso profile score | languages |
+| --- | --- | --- | --- | --- | --- |
+| 1 | Spinfo | Universität zu Köln | run1 | 0.7479 | de, en, fr |
+| 2 | Spinfo | Universität zu Köln | run3 | 0.7289 | de, en, fr |
+| 3 | MaxFo-Ajie | Foshan University | run1 | 0.7001 | de, en, fr |
+| 4 | Spinfo | Universität zu Köln | run2 | 0.689 | de, en, fr |
+| 5 | whereami | Alexandria University | run1 | 0.688 | de, en, fr |
+| 6 | whereami | Alexandria University | run2 | 0.6833 | de, en, fr |
+| 7 | MaxFo-Ajie | Foshan University | run2 | 0.669 | de, en, fr |
+| 8 | Awakened | National University of Science and Technology Politehnica Bucharest | run3 | 0.6671 | de, en, fr |
+| 9 | Awakened | National University of Science and Technology Politehnica Bucharest | run1 | 0.6584 | de, en, fr |
+| 10 | MaxFo-Ajie | Foshan University | run3 | 0.6544 | de, en, fr |
+| 11 | INSA Lyon | INSA Lyon - University of Lyon | run1 | 0.639 | de, en, fr |
+| 12 | gipplab | University of Göttingen | run2 | 0.6271 | de, en, fr |
+| 13 | Hansel&Gretel | IIT Roorkee | run3 | 0.6221 | de, en, fr |
+| 14 | gipplab | University of Göttingen | run1 | 0.6141 | de, en, fr |
+| 15 | MILRIT | University of Toulouse & La Rochelle University | run3 | 0.5951 | de, en, fr |
+| 16 | UMUTEAM | Universidad de Murcia | run2 | 0.5856 | de, en, fr |
+| 17 | Ministral-3-3B-Instruct GGUF baseline 0.2.2 random seed 42 | HIPE-2026 organizers | run1 | 0.5818 | de, en, fr |
+| 18 | VerbaNexAI II | Universidad Tecnológica de Bolívar | run3 | 0.5795 | de, en, fr |
+| 19 | Hansel&Gretel | IIT Roorkee | run2 | 0.5788 | de, en, fr |
+| 20 | BIU_NLP | Bar-Ilan University | run2 | 0.5781 | de, en, fr |
+| 21 | MILRIT | University of Toulouse & La Rochelle University | run1 | 0.5623 | de, en, fr |
+| 22 | Awakened | National University of Science and Technology Politehnica Bucharest | run2 | 0.5494 | de, en, fr |
+| 23 | Hansel&Gretel | IIT Roorkee | run1 | 0.5458 | de, en, fr |
+| 24 | BIU_NLP | Bar-Ilan University | run3 | 0.539 | de, en, fr |
+| 25 | VerbaNexAI II | Universidad Tecnológica de Bolívar | run2 | 0.5187 | de, en, fr |
+| 26 | DS@GT_HIPE | Georgia Institute of Technology | run1 | 0.5142 | de, en, fr |
+| 27 | gipplab | University of Göttingen | run3 | 0.5069 | de, en, fr |
+| 28 | VerbaNexAI II | Universidad Tecnológica de Bolívar | run1 | 0.5004 | de, en, fr |
+| 29 | VerbaNexAI I | Universidad Tecnológica de Bolívar | run2 | 0.4842 | de, en, fr |
+| 30 | DS@GT_HIPE | Georgia Institute of Technology | run2 | 0.4836 | de, en, fr |
+| 31 | DS@GT_HIPE | Georgia Institute of Technology | run3 | 0.4771 | de, en, fr |
+| 32 | FI Code | University of the Bundeswehr | run2 | 0.4734 | de, en, fr |
+| 33 | INSA Lyon | INSA Lyon - University of Lyon | run3 | 0.4731 | de, en, fr |
+| 34 | INSA Lyon | INSA Lyon - University of Lyon | run2 | 0.4708 | de, en, fr |
+| 35 | FI Code | University of the Bundeswehr | run3 | 0.4645 | de, en, fr |
+| 36 | VerbaNexAI I | Universidad Tecnológica de Bolívar | run1 | 0.4628 | de, en, fr |
+| 37 | ROSTI | Université Lumière Lyon | run3 | 0.4564 | de, en, fr |
+| 38 | ROSTI | Université Lumière Lyon | run2 | 0.4507 | de, en, fr |
+| 39 | UMUTEAM | Universidad de Murcia | run3 | 0.4495 | de, en, fr |
+| 40 | ROSTI | Université Lumière Lyon | run1 | 0.446 | de, en, fr |
+| 41 | BIU_NLP | Bar-Ilan University | run1 | 0.4429 | de, en, fr |
+| 42 | UMUTEAM | Universidad de Murcia | run1 | 0.4408 | de, en, fr |
+| 43 | FI Code | University of the Bundeswehr | run1 | 0.427 | de, en, fr |
+| 44 | MILRIT | University of Toulouse & La Rochelle University | run2 | 0.4264 | de, en, fr |
+| 45 | FourBytes | Sri Sivasubramaniya Nadar College of Engineering | run1 | 0.4061 | de, en, fr |
+| 46 | Random Decision Baseline | HIPE-2026 organizers | run1 | 0.4049 | de, en, fr |
+
+Only runs with submissions for all `impresso` languages are included in the overall Accuracy Profile ranking. Teams with partial results are shown in the dataset-specific tables in the full report.
+
+### Generalization Profile Ranking
+
+| rank | team | affiliation | run | surprise profile score |
+| --- | --- | --- | --- | --- |
+| 1 | MaxFo-Ajie | Foshan University | run3 | 0.8163 |
+| 2 | MaxFo-Ajie | Foshan University | run1 | 0.7945 |
+| 3 | MaxFo-Ajie | Foshan University | run2 | 0.7712 |
+| 4 | Spinfo | Universität zu Köln | run3 | 0.6984 |
+| 5 | Spinfo | Universität zu Köln | run1 | 0.691 |
+| 6 | BIU_NLP | Bar-Ilan University | run1 | 0.6837 |
+| 7 | Spinfo | Universität zu Köln | run2 | 0.6674 |
+| 8 | whereami | Alexandria University | run2 | 0.6665 |
+| 9 | gipplab | University of Göttingen | run2 | 0.6647 |
+| 10 | Awakened | National University of Science and Technology Politehnica Bucharest | run3 | 0.6613 |
+| 11 | Hansel&Gretel | IIT Roorkee | run2 | 0.6349 |
+| 12 | Awakened | National University of Science and Technology Politehnica Bucharest | run1 | 0.6338 |
+| 13 | whereami | Alexandria University | run1 | 0.6325 |
+| 14 | Hansel&Gretel | IIT Roorkee | run3 | 0.6187 |
+| 15 | Hansel&Gretel | IIT Roorkee | run1 | 0.6107 |
+| 16 | gipplab | University of Göttingen | run1 | 0.6085 |
+| 17 | BIU_NLP | Bar-Ilan University | run3 | 0.6 |
+| 18 | VerbaNexAI II | Universidad Tecnológica de Bolívar | run3 | 0.5724 |
+| 19 | UMUTEAM | Universidad de Murcia | run2 | 0.5723 |
+| 20 | Awakened | National University of Science and Technology Politehnica Bucharest | run2 | 0.5509 |
+| 21 | gipplab | University of Göttingen | run3 | 0.5382 |
+| 22 | BIU_NLP | Bar-Ilan University | run2 | 0.5265 |
+| 23 | MILRIT | University of Toulouse & La Rochelle University | run3 | 0.5152 |
+| 24 | VerbaNexAI II | Universidad Tecnológica de Bolívar | run2 | 0.5076 |
+| 25 | Ministral-3-3B-Instruct GGUF baseline 0.2.2 random seed 42 | HIPE-2026 organizers | run1 | 0.5062 |
+| 26 | INSA Lyon | INSA Lyon - University of Lyon | run1 | 0.4705 |
+| 27 | MILRIT | University of Toulouse & La Rochelle University | run1 | 0.4679 |
+| 28 | VerbaNexAI II | Universidad Tecnológica de Bolívar | run1 | 0.4419 |
+| 29 | INSA Lyon | INSA Lyon - University of Lyon | run2 | 0.4231 |
+| 30 | INSA Lyon | INSA Lyon - University of Lyon | run3 | 0.3986 |
+| 31 | DS@GT_HIPE | Georgia Institute of Technology | run3 | 0.3919 |
+| 32 | ROSTI | Université Lumière Lyon | run3 | 0.384 |
+| 33 | ROSTI | Université Lumière Lyon | run1 | 0.3773 |
+| 34 | FI Code | University of the Bundeswehr | run2 | 0.3755 |
+| 35 | MILRIT | University of Toulouse & La Rochelle University | run2 | 0.3742 |
+| 36 | VerbaNexAI I | Universidad Tecnológica de Bolívar | run2 | 0.3726 |
+| 37 | DS@GT_HIPE | Georgia Institute of Technology | run2 | 0.3721 |
+| 38 | ROSTI | Université Lumière Lyon | run2 | 0.366 |
+| 39 | Random Decision Baseline | HIPE-2026 organizers | run1 | 0.3628 |
+| 40 | DS@GT_HIPE | Georgia Institute of Technology | run1 | 0.3626 |
+| 41 | UMUTEAM | Universidad de Murcia | run3 | 0.362 |
+| 42 | FI Code | University of the Bundeswehr | run1 | 0.358 |
+| 43 | FI Code | University of the Bundeswehr | run3 | 0.3546 |
+| 44 | FourBytes | Sri Sivasubramaniya Nadar College of Engineering | run1 | 0.3445 |
+| 45 | VerbaNexAI I | Universidad Tecnológica de Bolívar | run1 | 0.3346 |
+| 46 | UMUTEAM | Universidad de Murcia | run1 | 0.3333 |
+
+### Accuracy-Efficiency Profile Ranking
+
+| rank | team | run | mean efficiency profile rank | accuracy score | parameter count | model size |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1 | MILRIT | run3 | 9.6667 | 0.5951 | 277,730,309 | 1111 MB |
+| 2 | FI Code | run2 | 10.3333 | 0.4734 | 0 | 0 MB |
+| 3 | DS@GT_HIPE | run1 | 10.6667 | 0.5142 | 2,087,375 | 87 MB |
+| 4 | DS@GT_HIPE | run2 | 12 | 0.4836 | 2,087,375 | 87 MB |
+| 5 | DS@GT_HIPE | run3 | 12.3333 | 0.4771 | 2,087,375 | 87 MB |
+| 6 | MILRIT | run1 | 13.6667 | 0.5623 | 466,577,920 | 1780 MB |
+| 6 | ROSTI | run1 | 13.6667 | 0.446 | 12,279 | 0.8 MB |
+| 6 | ROSTI | run2 | 13.6667 | 0.4507 | 12,365 | 0.81 MB |
+| 6 | ROSTI | run3 | 13.6667 | 0.4564 | 12,399 | 0.81 MB |
+| 7 | Random Decision Baseline | run1 | 15 | 0.4049 | 0 | 0 MB |
+| 8 | Awakened | run2 | 15.3333 | 0.5494 | 560,965,127 | 2140 MB |
+| 9 | Ministral-3-3B-Instruct GGUF baseline 0.2.2 random seed 42 | run1 | 15.6667 | 0.5818 | 3,000,000,000 | 2147.023 MB |
+| 9 | VerbaNexAI I | run2 | 15.6667 | 0.4842 | 355,000,000 | 1424 MB |
+| 10 | INSA Lyon | run2 | 16 | 0.4708 | 278,043,651 | 1061 MB |
+| 11 | whereami | run1 | 16.6667 | 0.688 | 5,123,178,979 | 9600 MB |
+| 12 | whereami | run2 | 17 | 0.6833 | 5,123,178,979 | 9600 MB |
+| 12 | FI Code | run1 | 17 | 0.427 | 208,935,168 | 816 MB |
+| 12 | VerbaNexAI II | run3 | 17 | 0.5795 | 4,000,000,000 | 2840 MB |
+| 13 | UMUTEAM | run1 | 17.3333 | 0.4408 | 270,000,000 | 1030 MB |
+| 14 | gipplab | run2 | 17.6667 | 0.6271 | 4,465,470,464 | 9012 MB |
+| 15 | VerbaNexAI I | run1 | 18 | 0.4628 | 355,000,000 | 1424 MB |
+| 16 | UMUTEAM | run2 | 18.3333 | 0.5856 | 4,000,000,000 | 7600 MB |
+| 17 | VerbaNexAI II | run1 | 18.6667 | 0.5004 | 1,500,000,000 | 2340 MB |
+| 18 | gipplab | run3 | 19.6667 | 0.5069 | 1,949,101,888 | 3845 MB |
+| 18 | FourBytes | run1 | 19.6667 | 0.4061 | 278,054,405 | 1060 MB |
+| 19 | Hansel&Gretel | run1 | 20 | 0.5458 | 3,000,000,000 | 6248 MB |
+| 20 | Spinfo | run1 | 20.3333 | 0.7479 | 116,830,000,000 | 65238 MB |
+| 21 | gipplab | run1 | 20.6667 | 0.6141 | 9,300,029,952 | 18398 MB |
+| 21 | Spinfo | run3 | 20.6667 | 0.7289 | 116,830,000,000 | 65238 MB |
+| 21 | INSA Lyon | run3 | 20.6667 | 0.4731 | 838,778,678 | 3217 MB |
+| 22 | Spinfo | run2 | 21 | 0.689 | 116,830,000,000 | 65238 MB |
+| 23 | VerbaNexAI II | run2 | 21.6667 | 0.5187 | 5,900,000,000 | 5980 MB |
+| 23 | Hansel&Gretel | run2 | 21.6667 | 0.5788 | 7,000,000,000 | 15300 MB |
+| 24 | MILRIT | run2 | 22 | 0.4264 | 466,585,989 | 1866 MB |
+| 25 | INSA Lyon | run1 | 22.6667 | 0.639 | 101,927,226,758 | 195716 MB |
+| 26 | FI Code | run3 | 23 | 0.4645 | 2,274,069,824 | 4442 MB |
+| 27 | Awakened | run3 | 23.6667 | 0.6671 | 999,999,999,999 | 999999 MB |
+| 28 | Awakened | run1 | 24 | 0.6584 | 999,999,999,999 | 999999 MB |
+| 29 | Hansel&Gretel | run3 | 24.3333 | 0.6221 | 120,000,000,000 | 240000 MB |
+| 30 | BIU_NLP | run2 | 24.6667 | 0.5781 | 27,000,000,000 | 54000 MB |
+| 30 | BIU_NLP | run3 | 24.6667 | 0.539 | 24,000,000,000 | 48000 MB |
+| 31 | UMUTEAM | run3 | 26 | 0.4495 | 4,000,000,000 | 7600 MB |
+| 32 | BIU_NLP | run1 | 31 | 0.4429 | 26,000,000,000 | 52000 MB |
+
+## Dataset-Specific Evaluations
+
+The official report contains the detailed dataset-specific rankings and per-run diagnostics links:
+
+- Accuracy Profile by `impresso` language: [German](/HIPE-2026/HIPE_2026_evaluation_results/#accuracy-profile-ranking-german), [English](/HIPE-2026/HIPE_2026_evaluation_results/#accuracy-profile-ranking-english), [French](/HIPE-2026/HIPE_2026_evaluation_results/#accuracy-profile-ranking-french)
+- Generalization Profile on `surprise`: [French](/HIPE-2026/HIPE_2026_evaluation_results/#generalization-profile-ranking-french)
+- Accuracy-Efficiency Profile by `impresso` language: [German](/HIPE-2026/HIPE_2026_evaluation_results/#efficiency-profile-ranking-german), [English](/HIPE-2026/HIPE_2026_evaluation_results/#efficiency-profile-ranking-english), [French](/HIPE-2026/HIPE_2026_evaluation_results/#efficiency-profile-ranking-french)
+
+Main table TSV files: [Accuracy](/HIPE-2026/assets/results/ternary/results.d/system-rankings/ranking-overall-test-a.tsv), [Generalization](/HIPE-2026/assets/results/ternary/results.d/system-rankings/ranking-generalization-test-b.tsv), [Accuracy-Efficiency](/HIPE-2026/assets/results/ternary/results.d/system-rankings/ranking-efficiency-test-a.tsv).
+
+## Additional Balanced Accuracy-Efficiency Analysis
+
+The balanced Accuracy-Efficiency analysis gives equal total weight to the Accuracy Profile rank and the combined resource ranks. It is provided as an additional analysis alongside the official Accuracy-Efficiency Profile.
+
+- [Rendered official evaluation report](/HIPE-2026/HIPE_2026_evaluation_results/)
+- [Download complete official results archive](/HIPE-2026/assets/results/ternary/results.d.zip), including all per-run scores, diagnostics, diagnostic metrics, and validation files.
+- Balanced Accuracy-Efficiency results: [Balanced Efficiency Profile Ranking Overall](/HIPE-2026/HIPE_2026_evaluation_results/#balanced-efficiency-profile-ranking-overall); [TSV table](/HIPE-2026/assets/results/ternary/results.d/system-rankings/ranking-efficiency-balanced-test-a.tsv).
+
+## Additional Binary Analysis
+
+The binary analysis maps `PROBABLE` to `TRUE` for the `at` relation in both reference and system labels. It is provided as an additional analysis alongside the official ternary evaluation.
+
+- [Rendered binary evaluation report](/HIPE-2026/HIPE_2026_evaluation_results-binary/)
+- [Download complete binary results archive](/HIPE-2026/assets/results/binary/results-binary.d.zip), including all per-run scores, diagnostics, diagnostic metrics, and validation files.
+- Binary dataset-specific evaluations: Accuracy Profile [German](/HIPE-2026/HIPE_2026_evaluation_results-binary/#accuracy-profile-ranking-german), [English](/HIPE-2026/HIPE_2026_evaluation_results-binary/#accuracy-profile-ranking-english), [French](/HIPE-2026/HIPE_2026_evaluation_results-binary/#accuracy-profile-ranking-french); Generalization Profile [French](/HIPE-2026/HIPE_2026_evaluation_results-binary/#generalization-profile-ranking-french); Accuracy-Efficiency Profile [German](/HIPE-2026/HIPE_2026_evaluation_results-binary/#efficiency-profile-ranking-german), [English](/HIPE-2026/HIPE_2026_evaluation_results-binary/#efficiency-profile-ranking-english), [French](/HIPE-2026/HIPE_2026_evaluation_results-binary/#efficiency-profile-ranking-french).
+
+## Reproducibility
+
+All competition data, submissions, and evaluation scripts are available in the [HIPE-2026 evaluation repository](https://github.com/hipe-eval/hipe-2026-eval). The task description and data documentation remain available on the [Tasks & Data](/HIPE-2026/tasks) page.
