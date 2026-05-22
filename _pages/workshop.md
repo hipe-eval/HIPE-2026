@@ -108,7 +108,7 @@ participant's approach, present the results and the main findings.
 <details>
   <summary>BibTeX [1]</summary>
 
-```bibtex
+{% raw %}
 @inproceedings{opitz_extended_2026,
   title = {Extended {{Overview}} of {{HIPE-2026}}: {{Evaluating Accurate}} and {{Efficient Person}}--{{Place Relation Extraction}} from {{Multilingual Historical Texts}}},
   booktitle = {{{CLEF}} 2026 Working Notes, {{CEUR}} Workshop Proceedings},
@@ -119,7 +119,7 @@ participant's approach, present the results and the main findings.
   publisher = {CEUR-WS},
   url = {}
 }
-```
+{% endraw %}
 
 </details>
 
@@ -128,7 +128,7 @@ participant's approach, present the results and the main findings.
 <details>
   <summary>BibTeX [2]</summary>
 
-```bibtex
+{% raw %}
 @inproceedings{opitz_overview_2026,
   title = {Overview of {{HIPE-2026}}: {{Person}}--{{Place Relation Extraction}} from {{Multilingual Historical Texts}}},
   booktitle = {Experimental {{IR}} Meets Multilinguality, Multimodality, and Interaction. {{Proceedings}} of the Seventeenth International Conference of the {{CLEF}} Association ({{CLEF}} 2026)},
@@ -138,6 +138,6 @@ participant's approach, present the results and the main findings.
   series = {Lecture Notes in Computer Science ({{LNCS}})},
   publisher = {Springer}
 }
-```
+{% endraw %}
 
 </details>
