@@ -96,12 +96,12 @@ Working Notes proceedings.
 Participant teams will publish working notes papers in the CEUR-WS Working Notes 
 proceedings.
 
-Shared task organisers will cite participant papers in both overviews, and 
+**Shared task organisers will cite participant papers in both overviews, and 
 participants are encouraged to cite the HIPE extended overview in their working notes 
-papers. The overview papers will present the task, include a brief summary of each 
+papers.** The overview papers will present the task, include a brief summary of each 
 participant’s approach, present the results and the main findings.
 
-**Extended overview**
+**Extended overview**   
 [1] Juri Opitz, Corina Raclé, Andrianos Michail, Matteo Romanello, Emanuela Boros, Simon Gabay, Maud Ehrmann, and Simon Clematide. 2026. Extended Overview of HIPE-2026: Evaluating Accurate and Efficient Person–Place Relation Extraction from Multilingual Historical Texts. In CLEF 2026 working notes, CEUR workshop proceedings, 2026. CEUR-WS. https://doi.org/10.5281/zenodo.20344461
 
 <details>
@@ -122,7 +122,7 @@ participant’s approach, present the results and the main findings.
 
 </details>
 
-**Condensed overview**
+**Condensed overview**    
 [2] Juri Opitz, Corina Raclé, Andrianos Michail, Matteo Romanello, Maud Ehrmann, and Simon Clematide. 2026. Overview of HIPE-2026: Person–Place Relation Extraction from Multilingual Historical Texts. In Experimental IR meets multilinguality, multimodality, and interaction. Proceedings of the seventeenth international conference of the CLEF association (CLEF 2026) (Lecture notes in computer science (LNCS)), 2026. Springer.
 
 <details>
