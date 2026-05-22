@@ -108,22 +108,20 @@ participant's approach, present the results and the main findings.
 <details>
   <summary>BibTeX [1]</summary>
 
-{% raw %}
-@inproceedings{opitz_extended_2026,
-  title = {Extended {{Overview}} of {{HIPE-2026}}: {{Evaluating Accurate}} and {{Efficient Person}}--{{Place Relation Extraction}} from {{Multilingual Historical Texts}}},
-  booktitle = {{{CLEF}} 2026 Working Notes, {{CEUR}} Workshop Proceedings},
-  author = {Opitz, Juri and Racl{\'e}, Corina and Michail, Andrianos and Romanello, Matteo and Boros, Emanuela and Gabay, Simon and Ehrmann, Maud and Clematide, Simon},
-  editor = {S{\'a}nchez Salido, Eva and {Barr{\'o}n-Cede{\~n}o}, Alberto and {Garc{\'i}a Seco de Herrera}, Alba and MacAvaney, Sean and Stru{\ss}, Julia Maria},
-  year = 2026,
-  volume = {3180},
-  publisher = {CEUR-WS},
-  url = {}
-}
-{% endraw %}
+  ```bibtex
+  @inproceedings{opitz_extended_2026,
+    title = {Extended {{Overview}} of {{HIPE-2026}}: {{Evaluating Accurate}} and {{Efficient Person}}--{{Place Relation Extraction}} from {{Multilingual Historical Texts}}},
+    booktitle = {{{CLEF}} 2026 Working Notes, {{CEUR}} Workshop Proceedings},
+    author = {Opitz, Juri and Racl{\'e}, Corina and Michail, Andrianos and Romanello, Matteo and Boros, Emanuela and Gabay, Simon and Ehrmann, Maud and Clematide, Simon},
+    editor = {S{\'a}nchez Salido, Eva and {Barr{\'o}n-Cede{\~n}o}, Alberto and {Garc{\'i}a Seco de Herrera}, Alba and MacAvaney, Sean and Stru{\ss}, Julia Maria},
+    year = 2026,
+    volume = {3180},
+    publisher = {CEUR-WS},
+    url = {}
+  }
+  ```
 
 </details>
-
-<p></p>
 
 [2] Juri Opitz, Corina Raclé, Andrianos Michail, Matteo Romanello, Maud Ehrmann, and Simon Clematide. 2026. Overview of HIPE-2026: Person–Place Relation Extraction from Multilingual Historical Texts. In Experimental IR meets multilinguality, multimodality, and interaction. Proceedings of the seventeenth international conference of the CLEF association (CLEF 2026) (Lecture notes in computer science (LNCS)), 2026. Springer.
 
