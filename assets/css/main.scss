@@ -64,7 +64,7 @@ $max-width: $x-large !default;
   }
 }
 
-// Light background for code blocks
-div.highlight, figure.highlight { background: #f6f8fa !important; }
-div.highlight pre, figure.highlight pre { background: #f6f8fa; color: #24292e; }
+/* Light background for code blocks */
+div.highlight, figure.highlight { background: #e8e8e4 !important; }
+div.highlight pre, figure.highlight pre { background: #e8e8e4; color: #24292e; }
 .highlight span { color: #24292e; }
