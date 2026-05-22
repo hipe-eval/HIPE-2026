@@ -80,21 +80,55 @@ Once the CEUR-WS Working Notes are published, they **cannot be modified** — in
 
 ### Cross-references between the HIPE Overview Paper and Participant Working Notes Papers
 
-Shared task organisers will publish two overview papers:
+Shared task organisers will publish two overview papers: 1) a **condensed overview** 
+in the CLEF 2026 LNCS proceedings, and 2) an **extended overview** in the CEUR-WS 
+Working Notes proceedings.
 
-* A **condensed overview** in the CLEF 2026 LNCS proceedings
-* An **extended overview** in the CEUR-WS Working Notes
+Participant teams will publish working notes papers in the CEUR-WS Working Notes 
+proceedings.
 
-We intend to cite accepted participant papers in the extended HIPE overview, and we encourage participants to cite the HIPE overview in their working notes papers. To facilitate this, the bibliographic details for both CLEF 2026 publication venues are provided below.
+Shared task organisers will cite participant papers in both overviews, and 
+participants are encouraged to cite the HIPE extended overview in their working notes 
+papers. The overview papers will present the task, include a brief summary of each 
+participant’s approach, present the results and the main findings.
 
-The titles of both overviews will follow the format **"Overview of HIPE 2026 [— subtitle]"** and will be communicated in due course.
 
-**LNCS proceedings** bibliographic details:
 
-> *Experimental IR Meets Multilinguality, Multimodality, and Interaction. Proceedings of the Seventeenth International Conference of the CLEF Association (CLEF 2026).*
-> Editors: Matthias Hagen, Martin Potthast, Benno Stein, Philipp Schaer, Eva Zangerle, Sean MacAvaney, Julia Maria Struß, Eva Sánchez Salido, Alberto Barrón-Cedeño, Alba García Seco de Herrera.
+[1] Juri Opitz, Corina Raclé, Andrianos Michail, Matteo Romanello, Emanuela Boros, Simon Gabay, Maud Ehrmann, and Simon Clematide. 2026. Extended Overview of HIPE-2026: Evaluating Accurate and Efficient Person–Place Relation Extraction from Multilingual Historical Texts. In CLEF 2026 working notes, CEUR workshop proceedings, 2026. CEUR-WS. https://doi.org/10.5281/zenodo.20344461
 
-**CEUR-WS Working Notes** bibliographic details:
+<details>
+  <summary>BibTeX for [1]</summary>
 
-> *CLEF 2026 Working Notes*, CEUR Workshop Proceedings.
-> Editors: Eva Sánchez Salido, Alberto Barrón-Cedeño, Alba García Seco de Herrera, Sean MacAvaney, Julia Maria Struß.
+```bibtex
+@inproceedings{opitz_extended_2026,
+  title = {Extended {{Overview}} of {{HIPE-2026}}: {{Evaluating Accurate}} and {{Efficient Person}}--{{Place Relation Extraction}} from {{Multilingual Historical Texts}}},
+  booktitle = {{{CLEF}} 2026 Working Notes, {{CEUR}} Workshop Proceedings},
+  author = {Opitz, Juri and Racl{\'e}, Corina and Michail, Andrianos and Romanello, Matteo and Boros, Emanuela and Gabay, Simon and Ehrmann, Maud and Clematide, Simon},
+  editor = {S{\'a}nchez Salido, Eva and {Barr{\'o}n-Cede{\~n}o}, Alberto and {Garc{\'i}a Seco de Herrera}, Alba and MacAvaney, Sean and Stru{\ss}, Julia Maria},
+  year = 2026,
+  volume = {3180},
+  publisher = {CEUR-WS},
+  url = {}
+}
+```
+
+</details>
+
+[2] Juri Opitz, Corina Raclé, Andrianos Michail, Matteo Romanello, Maud Ehrmann, and Simon Clematide. 2026. Overview of HIPE-2026: Person–Place Relation Extraction from Multilingual Historical Texts. In Experimental IR meets multilinguality, multimodality, and interaction. Proceedings of the seventeenth international conference of the CLEF association (CLEF 2026) (Lecture notes in computer science (LNCS)), 2026. Springer.
+
+<details>
+  <summary>BibTeX for [2]</summary>
+
+```bibtex
+@inproceedings{opitz_overview_2026,
+  title = {Overview of {{HIPE-2026}}: {{Person}}--{{Place Relation Extraction}} from {{Multilingual Historical Texts}}},
+  booktitle = {Experimental {{IR}} Meets Multilinguality, Multimodality, and Interaction. {{Proceedings}} of the Seventeenth International Conference of the {{CLEF}} Association ({{CLEF}} 2026)},
+  author = {Opitz, Juri and Racl{\'e}, Corina and Michail, Andrianos and Romanello, Matteo and Ehrmann, Maud and Clematide, Simon},
+  editor = {Hagen, Matthias and Potthast, Martin and Stein, Benno and Schaer, Philipp and Zangerle, Eva and MacAvaney, Sean and Stru{\ss}, Julia Maria and S{\'a}nchez Salido, Eva and {Barr{\'o}n-Cede{\~n}o}, Alberto and {Garc{\'i}a Seco de Herrera}, Alba},
+  year = 2026,
+  series = {Lecture Notes in Computer Science ({{LNCS}})},
+  publisher = {Springer}
+}
+```
+
+</details>
