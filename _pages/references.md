@@ -11,7 +11,7 @@ Juri Opitz, Corina Raclé, Andrianos Michail, Matteo Romanello, Emanuela Boros, 
 <details>
   <summary>BibTeX for Extended</summary>
 
-```bibtex
+{% raw %}
 @inproceedings{opitz_extended_2026,
   title = {Extended {{Overview}} of {{HIPE-2026}}: {{Evaluating Accurate}} and {{Efficient Person}}--{{Place Relation Extraction}} from {{Multilingual Historical Texts}}},
   booktitle = {{{CLEF}} 2026 Working Notes, {{CEUR}} Workshop Proceedings},
@@ -22,7 +22,7 @@ Juri Opitz, Corina Raclé, Andrianos Michail, Matteo Romanello, Emanuela Boros, 
   publisher = {CEUR-WS},
   url = {}
 }
-```
+{% endraw %}
 
 </details>
 
@@ -32,7 +32,7 @@ Juri Opitz, Corina Raclé, Andrianos Michail, Matteo Romanello, Maud Ehrmann, an
 <details>
   <summary>BibTeX for Condensed</summary>
 
-```bibtex
+{% raw %}
 @inproceedings{opitz_overview_2026,
   title = {Overview of {{HIPE-2026}}: {{Person}}--{{Place Relation Extraction}} from {{Multilingual Historical Texts}}},
   booktitle = {Experimental {{IR}} Meets Multilinguality, Multimodality, and Interaction. {{Proceedings}} of the Seventeenth International Conference of the {{CLEF}} Association ({{CLEF}} 2026)},
@@ -42,7 +42,8 @@ Juri Opitz, Corina Raclé, Andrianos Michail, Matteo Romanello, Maud Ehrmann, an
   series = {Lecture Notes in Computer Science ({{LNCS}})},
   publisher = {Springer}
 }
-```
+{% endraw %}
+
 </details>
 
 
