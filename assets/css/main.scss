@@ -63,3 +63,8 @@ $max-width: $x-large !default;
     max-width: none;
   }
 }
+
+// Light background for code blocks
+div.highlight, figure.highlight { background: #f6f8fa !important; }
+div.highlight pre, figure.highlight pre { background: #f6f8fa; color: #24292e; }
+.highlight span { color: #24292e; }
