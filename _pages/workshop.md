@@ -105,9 +105,6 @@ participant's approach, present the results and the main findings.
 
 [1] Juri Opitz, Corina Raclé, Andrianos Michail, Matteo Romanello, Emanuela Boros, Simon Gabay, Maud Ehrmann, and Simon Clematide. 2026. Extended Overview of HIPE-2026: Evaluating Accurate and Efficient Person–Place Relation Extraction from Multilingual Historical Texts. In CLEF 2026 working notes, CEUR workshop proceedings, 2026. CEUR-WS. https://doi.org/10.5281/zenodo.20344461
 
-<details>
-  <summary>BibTeX [1]</summary>
-
 {% raw %}
 ```bibtex
 @inproceedings{opitz_extended_2026,
@@ -123,14 +120,7 @@ participant's approach, present the results and the main findings.
 ```
 {% endraw %}
 
-</details>
-
-<p></p>
-
 [2] Juri Opitz, Corina Raclé, Andrianos Michail, Matteo Romanello, Maud Ehrmann, and Simon Clematide. 2026. Overview of HIPE-2026: Person–Place Relation Extraction from Multilingual Historical Texts. In Experimental IR meets multilinguality, multimodality, and interaction. Proceedings of the seventeenth international conference of the CLEF association (CLEF 2026) (Lecture notes in computer science (LNCS)), 2026. Springer.
-
-<details>
-  <summary>BibTeX [2]</summary>
 
 {% raw %}
 ```bibtex
@@ -146,4 +136,3 @@ participant's approach, present the results and the main findings.
 ```
 {% endraw %}
 
-</details>
