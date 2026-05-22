@@ -40,7 +40,7 @@ We evaluated submissions across three main profiles: **Accuracy** using macro Re
 | rank | team | affiliation |
 | --- | --- | --- |
 | 1 | MILRIT | University of Toulouse & La Rochelle University |
-| 2 | FI Code | University of the Bundeswehr |
+| 2 | FI-CODE | University of the Bundeswehr Munich |
 | 3 | DS@GT_HIPE | Georgia Institute of Technology |
 
 Full generated reports: [official evaluation report](/HIPE-2026/HIPE_2026_evaluation_results/) and [additional binary evaluation report](/HIPE-2026/HIPE_2026_evaluation_results-binary/).
@@ -91,10 +91,10 @@ The official ranking uses the ternary `at` labels `TRUE`, `PROBABLE`, and `FALSE
 | 29 | VerbaNexAI I | Universidad Tecnológica de Bolívar | run2 | 0.4842 | de, en, fr |
 | 30 | DS@GT_HIPE | Georgia Institute of Technology | run2 | 0.4836 | de, en, fr |
 | 31 | DS@GT_HIPE | Georgia Institute of Technology | run3 | 0.4771 | de, en, fr |
-| 32 | FI Code | University of the Bundeswehr | run2 | 0.4734 | de, en, fr |
+| 32 | FI-CODE | University of the Bundeswehr Munich | run2 | 0.4734 | de, en, fr |
 | 33 | INSA Lyon | INSA Lyon - University of Lyon | run3 | 0.4731 | de, en, fr |
 | 34 | INSA Lyon | INSA Lyon - University of Lyon | run2 | 0.4708 | de, en, fr |
-| 35 | FI Code | University of the Bundeswehr | run3 | 0.4645 | de, en, fr |
+| 35 | FI-CODE | University of the Bundeswehr Munich | run3 | 0.4645 | de, en, fr |
 | 36 | VerbaNexAI I | Universidad Tecnológica de Bolívar | run1 | 0.4628 | de, en, fr |
 | 37 | ROSTI | Université Lumière Lyon | run3 | 0.4564 | de, en, fr |
 | 38 | ROSTI | Université Lumière Lyon | run2 | 0.4507 | de, en, fr |
@@ -102,7 +102,7 @@ The official ranking uses the ternary `at` labels `TRUE`, `PROBABLE`, and `FALSE
 | 40 | ROSTI | Université Lumière Lyon | run1 | 0.446 | de, en, fr |
 | 41 | BIU_NLP | Bar-Ilan University | run1 | 0.4429 | de, en, fr |
 | 42 | UMUTEAM | Universidad de Murcia | run1 | 0.4408 | de, en, fr |
-| 43 | FI Code | University of the Bundeswehr | run1 | 0.427 | de, en, fr |
+| 43 | FI-CODE | University of the Bundeswehr Munich | run1 | 0.427 | de, en, fr |
 | 44 | MILRIT | University of Toulouse & La Rochelle University | run2 | 0.4264 | de, en, fr |
 | 45 | FourBytes | Sri Sivasubramaniya Nadar College of Engineering | run1 | 0.4061 | de, en, fr |
 | 46 | Random Decision Baseline | HIPE-2026 organizers | run1 | 0.4049 | de, en, fr |
@@ -146,7 +146,7 @@ Only runs with submissions for all `impresso` languages are included in the over
 | 31 | DS@GT_HIPE | Georgia Institute of Technology | run3 | 0.3919 |
 | 32 | ROSTI | Université Lumière Lyon | run3 | 0.384 |
 | 33 | ROSTI | Université Lumière Lyon | run1 | 0.3773 |
-| 34 | FI Code | University of the Bundeswehr | run2 | 0.3755 |
+| 34 | FI-CODE | University of the Bundeswehr Munich | run2 | 0.3755 |
 | 35 | MILRIT | University of Toulouse & La Rochelle University | run2 | 0.3742 |
 | 36 | VerbaNexAI I | Universidad Tecnológica de Bolívar | run2 | 0.3726 |
 | 37 | DS@GT_HIPE | Georgia Institute of Technology | run2 | 0.3721 |
@@ -154,8 +154,8 @@ Only runs with submissions for all `impresso` languages are included in the over
 | 39 | Random Decision Baseline | HIPE-2026 organizers | run1 | 0.3628 |
 | 40 | DS@GT_HIPE | Georgia Institute of Technology | run1 | 0.3626 |
 | 41 | UMUTEAM | Universidad de Murcia | run3 | 0.362 |
-| 42 | FI Code | University of the Bundeswehr | run1 | 0.358 |
-| 43 | FI Code | University of the Bundeswehr | run3 | 0.3546 |
+| 42 | FI-CODE | University of the Bundeswehr Munich | run1 | 0.358 |
+| 43 | FI-CODE | University of the Bundeswehr Munich | run3 | 0.3546 |
 | 44 | FourBytes | Sri Sivasubramaniya Nadar College of Engineering | run1 | 0.3445 |
 | 45 | VerbaNexAI I | Universidad Tecnológica de Bolívar | run1 | 0.3346 |
 | 46 | UMUTEAM | Universidad de Murcia | run1 | 0.3333 |
@@ -165,7 +165,7 @@ Only runs with submissions for all `impresso` languages are included in the over
 | rank | team | run | mean efficiency profile rank | accuracy score | parameter count | model size |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | MILRIT | run3 | 9.6667 | 0.5951 | 277,730,309 | 1111 MB |
-| 2 | FI Code | run2 | 10.3333 | 0.4734 | 0 | 0 MB |
+| 2 | FI-CODE | run2 | 10.3333 | 0.4734 | 0 | 0 MB |
 | 3 | DS@GT_HIPE | run1 | 10.6667 | 0.5142 | 2,087,375 | 87 MB |
 | 4 | DS@GT_HIPE | run2 | 12 | 0.4836 | 2,087,375 | 87 MB |
 | 5 | DS@GT_HIPE | run3 | 12.3333 | 0.4771 | 2,087,375 | 87 MB |
@@ -180,7 +180,7 @@ Only runs with submissions for all `impresso` languages are included in the over
 | 10 | INSA Lyon | run2 | 16 | 0.4708 | 278,043,651 | 1061 MB |
 | 11 | whereami | run1 | 16.6667 | 0.688 | 5,123,178,979 | 9600 MB |
 | 12 | whereami | run2 | 17 | 0.6833 | 5,123,178,979 | 9600 MB |
-| 12 | FI Code | run1 | 17 | 0.427 | 208,935,168 | 816 MB |
+| 12 | FI-CODE | run1 | 17 | 0.427 | 208,935,168 | 816 MB |
 | 12 | VerbaNexAI II | run3 | 17 | 0.5795 | 4,000,000,000 | 2840 MB |
 | 13 | UMUTEAM | run1 | 17.3333 | 0.4408 | 270,000,000 | 1030 MB |
 | 14 | gipplab | run2 | 17.6667 | 0.6271 | 4,465,470,464 | 9012 MB |
@@ -199,7 +199,7 @@ Only runs with submissions for all `impresso` languages are included in the over
 | 23 | Hansel&Gretel | run2 | 21.6667 | 0.5788 | 7,000,000,000 | 15300 MB |
 | 24 | MILRIT | run2 | 22 | 0.4264 | 466,585,989 | 1866 MB |
 | 25 | INSA Lyon | run1 | 22.6667 | 0.639 | 101,927,226,758 | 195716 MB |
-| 26 | FI Code | run3 | 23 | 0.4645 | 2,274,069,824 | 4442 MB |
+| 26 | FI-CODE | run3 | 23 | 0.4645 | 2,274,069,824 | 4442 MB |
 | 27 | Awakened | run3 | 23.6667 | 0.6671 | 999,999,999,999 | 999999 MB |
 | 28 | Awakened | run1 | 24 | 0.6584 | 999,999,999,999 | 999999 MB |
 | 29 | Hansel&Gretel | run3 | 24.3333 | 0.6221 | 120,000,000,000 | 240000 MB |
