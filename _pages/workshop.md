@@ -113,9 +113,8 @@ participant's approach, present the results and the main findings.
   author = {Opitz, Juri and Racl{\'e}, Corina and Michail, Andrianos and Romanello, Matteo and Boros, Emanuela and Gabay, Simon and Ehrmann, Maud and Clematide, Simon},
   editor = {S{\'a}nchez Salido, Eva and {Barr{\'o}n-Cede{\~n}o}, Alberto and {Garc{\'i}a Seco de Herrera}, Alba and MacAvaney, Sean and Stru{\ss}, Julia Maria},
   year = 2026,
-  volume = {3180},
   publisher = {CEUR-WS},
-  url = {}
+  doi = {10.5281/zenodo.20344461}
 }
 ```
 {% endraw %}
