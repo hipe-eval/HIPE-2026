@@ -14,18 +14,18 @@ permalink: timeline
 
 ### Upcoming Deadlines
 
-* **21 Sep 2026 (Mon)**: [CLEF 2026 Conference](https://clef2026.clef-initiative.eu/).
-* **31 Aug 2026 (Mon)**: CLEF conference late registration ends.
-* **21–25 Jul 2026**: CLEF Working Notes preview — authors and organizers check for errors before final publication.
-* **10 Jul 2026 (Fri)**: CLEF conference regular registration ends.
-* **06 Jul 2026 (Mon)**: Camera-ready submission of participant papers.
-* **30 Jun 2026 (Tue)**: Notification of acceptance for participant papers.
 * **25 Jun 2026 (Thu)**: End of review process.
-* **28 May 2026 (Thu)**: Submission of participant working notes papers.
-* **28 May 2026 (Thu)**: Short system description to be sent to organizers. 
+* **30 Jun 2026 (Tue)**: Notification of acceptance for participant papers.
+* **06 Jul 2026 (Mon)**: Camera-ready submission of participant papers.
+* **10 Jul 2026 (Fri)**: CLEF conference regular registration ends.
+* **21–25 Jul 2026**: CLEF Working Notes preview — authors and organizers check for errors before final publication.
+* **31 Aug 2026 (Mon)**: CLEF conference late registration ends.
+* **21 Sep 2026 (Mon)**: [CLEF 2026 Conference](https://clef2026.clef-initiative.eu/).
 
 ### Past Deadlines
 
+* 28 May 2026 (Thu): Submission of participant working notes papers.
+* 28 May 2026 (Thu): Short system description to be sent to organizers. 
 * 13 May 2026 (Wed): Publication of results and release of test data.  
 * 07 May 2026 (Thu): Participant system response submission deadline (AoE).  
 * 05 May 2026 (Tue): Test data release (AoE). Official testset: [this link](https://github.com/hipe-eval/HIPE-2026-data/tree/main/official_test_unlabeled).
