@@ -119,14 +119,14 @@ participant's approach, present the results and the main findings.
 ```
 {% endraw %}
 
-[2] Juri Opitz, Corina Raclé, Andrianos Michail, Matteo Romanello, Maud Ehrmann, and Simon Clematide. 2026. **Overview of HIPE-2026: Person–Place Relation Extraction from Multilingual Historical Texts**. In Experimental IR meets multilinguality, multimodality, and interaction. Proceedings of the seventeenth international conference of the CLEF association (CLEF 2026) (Lecture notes in computer science (LNCS)), 2026. Springer.
+[2] Juri Opitz,  Maud Ehrmann, Corina Raclé, Andrianos Michail, Matteo Romanello, and Simon Clematide. 2026. **Overview of HIPE-2026: Person–Place Relation Extraction from Multilingual Historical Texts**. In Experimental IR meets multilinguality, multimodality, and interaction. Proceedings of the seventeenth international conference of the CLEF association (CLEF 2026) (Lecture notes in computer science (LNCS)), 2026. Springer.
 
 {% raw %}
 ```bibtex
 @inproceedings{opitz_overview_2026,
   title = {Overview of {{HIPE-2026}}: {{Person}}--{{Place Relation Extraction}} from {{Multilingual Historical Texts}}},
   booktitle = {Experimental {{IR}} Meets Multilinguality, Multimodality, and Interaction. {{Proceedings}} of the Seventeenth International Conference of the {{CLEF}} Association ({{CLEF}} 2026)},
-  author = {Opitz, Juri and Racl{\'e}, Corina and Michail, Andrianos and Romanello, Matteo and Ehrmann, Maud and Clematide, Simon},
+  author = {Opitz, Juri and Ehrmann, Maud and Racl{\'e}, Corina and Michail, Andrianos and Romanello, Matteo and Clematide, Simon},
   editor = {Hagen, Matthias and Potthast, Martin and Stein, Benno and Schaer, Philipp and Zangerle, Eva and MacAvaney, Sean and Stru{\ss}, Julia Maria and S{\'a}nchez Salido, Eva and {Barr{\'o}n-Cede{\~n}o}, Alberto and {Garc{\'i}a Seco de Herrera}, Alba},
   year = 2026,
   series = {Lecture Notes in Computer Science ({{LNCS}})},
