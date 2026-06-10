@@ -14,7 +14,7 @@ permalink: evaluation
 - [Metrics](#metrics)
 - [Efficiency Metadata](#efficiency-metadata)
 - [Resources](#resources)
-- [Minimal Baseline](#minimal-baseline)
+- [Baseline](#minimal-baseline)
 
 ## Evaluation Overview
 
