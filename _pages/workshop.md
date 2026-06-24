@@ -136,21 +136,54 @@ participant's approach, present the results and the main findings.
 ```
 
 ## Preparation of Camera-Ready Working Notes
- 
-### Information all papers should include
- 
-- **Team name**: Please make sure your team name is mentioned in the paper, so that it can be related to the result tables in the overview papers.
+
+### General guidelines
+
+- **Team name**: Please make sure your team name is mentioned in the paper,
+  including in the abstract, so that it can be related to the result tables
+  in the overview papers.
+- **Titles**: Please do not change your paper title, as it is already
+  referenced in the overview papers and indexed in the proceedings.
+- **Declaration of use of generative AI**: CEUR-WS requires a declaration
+  of use of generative AI tools in the preparation of your paper. Please
+  refer to the CEUR-WS policy and add the appropriate statement:
+  <https://ceur-ws.org/GenAI/Policy.html>
+- **Task presentation**: Participant papers should be self-contained and
+  include a presentation of the task and the evaluation profiles. This does
+  not need to be lengthy and can point to the overview paper, but it should
+  be present. When introducing the task, consider adding the task website
+  URL in a footnote: <https://hipe-eval.github.io/HIPE-2026/>
 - **System rankings**: If you mention the rank of your system(s):
   - Specify the run number alongside the rank.
-  - State the total number of participating teams, so that readers can situate your system in context.
+  - State the total number of participating teams (17), so that readers can
+    situate your system in context.
   - Point to the results tables of the overview papers for completeness.
-- **Task presentation**: Participant papers should be self-contained and include a presentation of the task and the evaluation profiles. This does not need to be lengthy and can point to the overview paper, but it should be present. When introducing the task, consider adding the task website URL in a footnote: <https://hipe-eval.github.io/HIPE-2026/>
+- **Metric and score names**: Please use metric and score names carefully
+  and consistently. The official metric is **macro recall** (also referred
+  to as balanced accuracy) — not F1, not accuracy. The per-relation scores
+  are `MacroRecall_at` and `MacroRecall_isAt`. The language-specific profile
+  score is their mean, and the overall Test A ranking score averages this
+  across the three languages. The three evaluation dimensions should be
+  referred to as profiles (accuracy profile, efficiency profile,
+  generalization profile), not as tracks, tasks, or subtasks. The efficiency
+  score is a mean of ranks (lower is better) and should not be confused with
+  a recall figure or an accuracy score.
 - **Reproducibility**:
-  - When mentioning the competition data, please indicate the version used in a footnote: <https://github.com/hipe-eval/HIPE-2026-data/releases/tag/v1.0>
-  - If you used the official scorer, please cite and reference it alongside: <https://github.com/hipe-eval/HIPE-2026-data/releases/tag/v1.0>
-- **Updated overview paper authorship**: The authorship of the condensed overview 
-  paper has been updated (see above). Please check and update your references 
-  accordingly. 
+  - When mentioning the competition data, please indicate the version used
+    in a footnote: <https://github.com/hipe-eval/HIPE-2026-data/releases/tag/v1.0>
+  - If you used the official scorer, please cite and reference it in the
+    same footnote: <https://github.com/hipe-eval/HIPE-2026-data/releases/tag/v1.0>
+  - If you want to point to your system submission files and the evaluation
+    orchestrator of the shared task, link to:
+    <https://github.com/hipe-eval/HIPE-2026-eval>
+- **References to the overview papers**: Please make sure you reference both
+  overview papers where relevant. The correct BibTeX entries — including the
+  updated authorship of the condensed overview — are available on the
+  workshop page:
+  <https://hipe-eval.github.io/HIPE-2026/workshop#publication-and-cross-references>.
+  The condensed overview is also available as an arXiv preprint (link to be
+  added shortly) and can serve as background reading; please cite the
+  Springer version rather than the preprint.
 
 
 {% endraw %}
