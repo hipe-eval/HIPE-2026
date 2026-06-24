@@ -160,14 +160,15 @@ participant's approach, present the results and the main findings.
   - Point to the results tables of the overview papers for completeness.
 - **Metric and score names**: Please use metric and score names carefully
   and consistently. The official metric is **macro recall** (also referred
-  to as balanced accuracy) — not F1, not accuracy. The per-relation scores
-  are `MacroRecall_at` and `MacroRecall_isAt`. The language-specific profile
+  to as balanced accuracy) — not F1. The per-relation scores are
+  `MacroRecall_at` and `MacroRecall_isAt`. The language-specific profile
   score is their mean, and the overall Test A ranking score averages this
   across the three languages. The three evaluation dimensions should be
-  referred to as profiles (accuracy profile, efficiency profile,
-  generalization profile), not as tracks, tasks, or subtasks. The efficiency
-  score is a mean of ranks (lower is better) and should not be confused with
-  a recall figure or an accuracy score.
+  referred to as profiles (Accuracy profile, Efficiency profile,
+  Generalization profile), not as tracks, tasks, or subtasks. The efficiency
+  score is the mean of three ranks — accuracy rank, model parameter count
+  rank, and deployed model size rank — and is therefore not a recall or
+  accuracy figure: a lower efficiency score is better.
 - **Reproducibility**:
   - When mentioning the competition data, please indicate the version used
     in a footnote: <https://github.com/hipe-eval/HIPE-2026-data/releases/tag/v1.0>
