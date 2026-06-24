@@ -11,6 +11,7 @@ The CLEF-HIPE-2026 workshop will take place during the [CLEF 2026 conference](ht
 - [Working Notes](#working-notes)
 - [Submission and Review](#submission-and-review)
 - [Publication and Cross-References](#publication-and-cross-references)
+- [Preparation of Camera-Ready Working Notes](#preparation-of-camera-ready-working-notes)
 
 ## Key Dates
 
@@ -133,5 +134,24 @@ participant's approach, present the results and the main findings.
   publisher = {Springer}
 }
 ```
+
+## Preparation of Camera-Ready Working Notes
+ 
+### Information all papers should include
+ 
+- **Team name**: Please make sure your team name is mentioned in the paper, so that it can be related to the result tables in the overview papers.
+- **System rankings**: If you mention the rank of your system(s):
+  - Specify the run number alongside the rank.
+  - State the total number of participating teams, so that readers can situate your system in context.
+  - Point to the results tables of the overview papers for completeness.
+- **Task presentation**: Participant papers should be self-contained and include a presentation of the task and the evaluation profiles. This does not need to be lengthy and can point to the overview paper, but it should be present. When introducing the task, consider adding the task website URL in a footnote: <https://hipe-eval.github.io/HIPE-2026/>
+- **Reproducibility**:
+  - When mentioning the competition data, please indicate the version used in a footnote: <https://github.com/hipe-eval/HIPE-2026-data/releases/tag/v1.0>
+  - If you used the official scorer, please cite and reference it alongside: <https://github.com/hipe-eval/HIPE-2026-data/releases/tag/v1.0>
+- **Updated overview paper authorship**: The authorship of the condensed overview 
+  paper has been updated (see above). Please check and update your references 
+  accordingly. 
+
+
 {% endraw %}
 
