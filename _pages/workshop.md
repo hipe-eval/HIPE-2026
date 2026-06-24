@@ -155,8 +155,9 @@ participant's approach, present the results and the main findings.
   URL in a footnote: <https://hipe-eval.github.io/HIPE-2026/>
 - **System rankings**: If you mention the rank of your system(s):
   - Specify the run number alongside the rank.
-  - State the total number of participating teams (17), so that readers can
-    situate your system in context.
+  - State the total number of participating teams (17) and submitted runs (45), so 
+    that 
+    readers can situate your system in context.
   - Point to the results tables of the overview papers for completeness.
 - **Metric and score names**: Please use metric and score names carefully
   and consistently. The official metric is **macro recall** (also referred
@@ -177,6 +178,7 @@ participant's approach, present the results and the main findings.
   - If you want to point to your system submission files and the evaluation
     orchestrator of the shared task, link to:
     <https://github.com/hipe-eval/HIPE-2026-eval>
+  - Consider providing a link to your system code and/or model weights, if possible.
 - **References to the overview papers**: Please make sure you reference both
   overview papers where relevant. The correct BibTeX entries — including the
   updated authorship of the condensed overview — are available on the
