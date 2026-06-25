@@ -11,7 +11,7 @@ The CLEF-HIPE-2026 workshop will take place during the [CLEF 2026 conference](ht
 - [Working Notes](#working-notes)
 - [Submission and Review](#submission-and-review)
 - [Publication and Cross-References](#publication-and-cross-references)
-- [Preparation of Camera-Ready Working Notes](#preparation-of-camera-ready-working-notes)
+- [Preparation of Camera-Ready Working Notes](#preparation-of-camera-ready-working-notes-general-guidelines)
 
 ## Key Dates
 
