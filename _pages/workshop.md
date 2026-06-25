@@ -111,7 +111,7 @@ participant's approach, present the results and the main findings.
 @inproceedings{opitz_extended_2026,
   title = {Extended {{Overview}} of {{HIPE-2026}}: {{Evaluating Accurate}} and {{Efficient Person}}--{{Place Relation Extraction}} from {{Multilingual Historical Texts}}},
   booktitle = {{{CLEF}} 2026 Working Notes, {{CEUR}} Workshop Proceedings},
-  author = {Opitz, Juri and Racl{\'e}, Corina and Michail, Andrianos and Romanello, Matteo and Boros, Emanuela and Gabay, Simon and Ehrmann, Maud and Clematide, Simon},
+  author = {Opitz, Juri and Ehrmann, Maud and Racl{\'e}, Corina and Michail, Andrianos and Romanello, Matteo and Boros, Emanuela and Gabay, Simon and Clematide, Simon},
   editor = {S{\'a}nchez Salido, Eva and {Barr{\'o}n-Cede{\~n}o}, Alberto and {Garc{\'i}a Seco de Herrera}, Alba and MacAvaney, Sean and Stru{\ss}, Julia Maria},
   year = 2026,
   publisher = {CEUR-WS},
