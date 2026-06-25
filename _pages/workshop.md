@@ -135,59 +135,90 @@ participant's approach, present the results and the main findings.
 }
 ```
 
-## Preparation of Camera-Ready Working Notes
+## Preparation of Camera-Ready Working Notes: General Guidelines
 
-### General guidelines
+### Team and Paper Identification
 
 - **Team name**: Please make sure your team name is mentioned in the paper,
   including in the abstract, so that it can be related to the result tables
   in the overview papers.
-- **Titles**: Please do not change your paper title, as it is already
+- **Paper title**: Please do not change your paper title, as it is already
   referenced in the overview papers and indexed in the proceedings.
+
+### Article Writing
+
 - **Declaration of use of generative AI**: CEUR-WS requires a declaration
-  of use of generative AI tools in the preparation of your paper. Please
-  refer to the CEUR-WS policy and add the appropriate statement:
-  <https://ceur-ws.org/GenAI/Policy.html>
-- **Task presentation**: Participant papers should be self-contained and
-  include a presentation of the task and the evaluation profiles. This does
-  not need to be lengthy and can point to the overview paper, but it should
-  be present. When introducing the task, consider adding the task website
-  URL in a footnote: <https://hipe-eval.github.io/HIPE-2026/>
-- **System rankings**: If you mention the rank of your system(s):
-  - Specify the run number alongside the rank.
-  - State the total number of participating teams (17) and submitted runs (45), so 
-    that 
-    readers can situate your system in context.
-  - Point to the results tables of the overview papers for completeness.
-- **Metric and score names**: Please use metric and score names carefully
-  and consistently. The official metric is **macro recall** (also referred
-  to as balanced accuracy) — not F1. The per-relation scores are
-  `MacroRecall_at` and `MacroRecall_isAt`. The language-specific profile
-  score is their mean, and the overall Test A ranking score averages this
-  across the three languages. The three evaluation dimensions should be
-  referred to as profiles (Accuracy profile, Efficiency profile,
-  Generalization profile), not as tracks, tasks, or subtasks. The efficiency
-  score is the mean of three ranks — accuracy rank, model parameter count
-  rank, and deployed model size rank — and is therefore not a recall or
-  accuracy figure: a lower efficiency score is better.
-- **Reproducibility**:
-  - When mentioning the competition data, please indicate the version used
-    in a footnote: <https://github.com/hipe-eval/HIPE-2026-data/releases/tag/v1.0>
-  - If you used the official scorer, please cite and reference it in the
-    same footnote: <https://github.com/hipe-eval/HIPE-2026-data/releases/tag/v1.0>
-  - If you want to point to your system submission files and the evaluation
-    orchestrator of the shared task, link to:
-    <https://github.com/hipe-eval/HIPE-2026-eval>
-  - Consider providing a link to your system code and/or model weights, if possible.
+  of use (or non-use) of generative AI tools in the preparation of your
+  paper. Please refer to the CEUR-WS policy and add the appropriate
+  statement: <https://ceur-ws.org/GenAI/Policy.html>
+- **Bibliography**: Please make sure your bibliography is complete and
+  correct, and that all references are cited in the text. Pay attention to
+  **correct casing** of titles.
+
+### Cross-References
+
+- **References to other participants' papers**: You may reference other
+  participants' papers where relevant. We are sharing BibTeX entries for all participant
+  papers here (link to be added).
 - **References to the overview papers**: Please make sure you reference both
-  overview papers where relevant. The correct BibTeX entries — including the
-  updated authorship of the condensed overview — are available on the
-  workshop page:
+  overview papers where relevant. Please note the BibTeX entries have been updated and  
+  are available on the workshop page:
   <https://hipe-eval.github.io/HIPE-2026/workshop#publication-and-cross-references>.
   The condensed overview is also available as an arXiv preprint (link to be
   added shortly) and can serve as background reading; please cite the
   Springer version rather than the preprint.
 
+### Task Definition, Setup, and Results
+
+- **Task presentation**: Participant papers should be self-contained and
+  include a presentation of the task and the evaluation profiles. This does
+  not need to be lengthy and can point to the overview paper, but it should
+  be present. When introducing the task, consider adding the **task website
+  URL in a footnote**: <https://hipe-eval.github.io/HIPE-2026/>
+
+- **System rankings**: If you mention the rank of your system(s):
+  - Specify the run number alongside the rank.
+  - State the total number of participating teams (17) and submitted runs
+    (45), so that readers can situate your system in context.
+  - Point to the results tables of the overview papers for completeness.
+
+- **Metric and score names**: Please use metric and score names carefully
+  and consistently. The official metric is **macro recall** (also referred
+  to as balanced accuracy) — not F1. The per-relation scores are
+  `MacroRecall_at` and `MacroRecall_isAt`. The language-specific profile
+  score is their arithmetic mean, and the overall Test A ranking score averages this
+  across the three languages. The three evaluation dimensions should be
+  referred to as profiles (Accuracy profile, Efficiency profile,
+  Generalization profile), not as tracks, tasks, or subtasks. The efficiency
+  score is the **arithmetic** mean of three ranks — accuracy rank, model parameter count
+  rank, and deployed model size rank — and is therefore not a recall or
+  accuracy figure: a lower efficiency score is better.
+
+- **Dataset and data split names**: To facilitate cross-paper comparison,
+  we encourage consistent naming of datasets and splits:
+  - For test data, please use one of the following: *Newspaper test set* or
+    *Test A*, and *literary surprise test set* or *Test B*.
+  - For training data, the following names are equivalent and may be used
+    interchangeably: Gold Train A, Silver Train A, Silver Dev A (as defined
+    in the overview papers).
+  - In result tables, please indicate clearly which test set the results
+    correspond to.
+
+### Reproducibility and Code Sharing
+
+- **Competition data**: When mentioning the competition data, please
+  indicate the version used in a footnote:
+  <https://github.com/hipe-eval/HIPE-2026-data/releases/tag/v1.0>
+- **Official scorer**: If you used the official scorer, please cite and
+  reference it in the same footnote:
+  <https://github.com/hipe-eval/HIPE-2026-data/releases/tag/v1.0>
+- **Submission files and evaluation orchestrator**: If you wish to point to
+  your system submission files and the shared task evaluation orchestrator,
+  link to: <https://github.com/hipe-eval/HIPE-2026-eval>
+- **System code and model weights**: Consider providing a link to your
+  system code and/or model weights, if available.
+- **When presenting your models**, please make clear on which data they were
+    trained and validated.
 
 {% endraw %}
 
