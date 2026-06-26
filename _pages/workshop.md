@@ -203,15 +203,15 @@ participant's approach, present the results and the main findings.
 
 - **Dataset and data split names**: To facilitate cross-paper comparison,
   we encourage consistent naming of datasets and splits:
-  - For **test data**, please use one of the following: ***Test A*** or ***Newspaper test 
-    set***, and ***Test B*** or ***French literary surprise test set***.
-  - For **training data**, the following distinctions apply. **Gold Train A** refers
-   to the manually annotated training data (available in the `/newspapers/v1.0`
-   folder of the data repository). **Silver Train A** and **Silver Dev A** refer
-   to the LLM-annotated data produced by majority voting (available in the
-   `/sandbox` folder); these may also be referred to as *sandbox train* and
-   *sandbox dev*, but we recommend using ***Silver Train A*** and ***Silver Dev A*** to
-   align with the terminology of the overview papers.
+  - For **test data**, please use one of the following:***Test A*** or ***Newspaper test 
+      set***, and ***Test B*** or ***French literary surprise test set***.
+  - For **training data**, the following distinctions apply. 
+    - **Gold Train A** refers to the manually annotated training data (available in the `/newspapers/v1.0`
+     folder of the data repository). 
+    - **Silver Train A** and **Silver Dev A** refer to the LLM-annotated data produced by majority voting (available in the
+     `/sandbox` folder); these may also be referred to as *sandbox train* and
+     *sandbox dev*, but we recommend using ***Silver Train A*** and ***Silver Dev A*** to
+     align with the terminology of the overview papers.
   
 - **Consistency of reported results**: Please ensure that scores mentioned
   in the abstract and conclusion match those in your result tables. When
