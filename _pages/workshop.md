@@ -159,13 +159,12 @@ participant's approach, present the results and the main findings.
 
 - **References to other participants' papers**: You may reference other
   participants' papers where relevant. We are sharing BibTeX entries for all participant
-  papers here (link to be added).
+  papers here (link to be added). Additionally, you can find references and summaries in our [overview preprint on arXiv](https://arxiv.org/abs/2606.25935). (Note: If you cite the overview paper itself, keep using the sahred Springer BibTex; See also next point).
 - **References to the overview papers**: Please make sure you reference both
-  overview papers where relevant. Please note the BibTeX entries have been updated and  
+  overview papers, as this is mandatory. Please note the BibTeX entries have been updated and  
   are available on the workshop page:
   <https://hipe-eval.github.io/HIPE-2026/workshop#publication-and-cross-references>.
-  The condensed overview is also available as an arXiv preprint (link to be
-  added shortly) and can serve as background reading; please cite the
+  The condensed overview is also available as an arXiv preprint (see above) and can serve as background reading; please cite the
   Springer version rather than the preprint.
 
 ### Task Definition, Setup, and Results
@@ -184,7 +183,7 @@ participant's approach, present the results and the main findings.
 
 - **Metric and score names**: Please use metric and score names carefully
   and consistently. The official metric is **macro recall** (also referred
-  to as balanced accuracy) — not F1. The per-relation scores are
+  to as balanced accuracy). The per-relation scores are
   `MacroRecall_at` and `MacroRecall_isAt`. The language-specific profile
   score is their arithmetic mean, and the overall Test A ranking score averages this
   across the three languages. The three evaluation dimensions should be
