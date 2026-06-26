@@ -11,6 +11,7 @@ The CLEF-HIPE-2026 workshop will take place during the [CLEF 2026 conference](ht
 - [Working Notes](#working-notes)
 - [Submission and Review](#submission-and-review)
 - [Publication and Cross-References](#publication-and-cross-references)
+- [Preparation of Camera-Ready Working Notes](#preparation-of-camera-ready-working-notes-general-guidelines)
 
 ## Key Dates
 
@@ -103,14 +104,14 @@ participant's approach, present the results and the main findings.
 
 #### References
 
-[1] Juri Opitz, Corina Raclé, Andrianos Michail, Matteo Romanello, Emanuela Boros, Simon Gabay, Maud Ehrmann, and Simon Clematide. 2026. **Extended Overview of HIPE-2026: Evaluating Accurate and Efficient Person–Place Relation Extraction from Multilingual Historical Texts**. In CLEF 2026 working notes, CEUR workshop proceedings, 2026. CEUR-WS. https://doi.org/10.5281/zenodo.20344461
+[1] Juri Opitz, Maud Ehrmann, Corina Raclé, Andrianos Michail, Matteo Romanello, Emanuela Boros, Simon Gabay, and Simon Clematide. 2026. **Extended Overview of HIPE-2026: Evaluating Accurate and Efficient Person–Place Relation Extraction from Multilingual Historical Texts**. In CLEF 2026 working notes, CEUR workshop proceedings, 2026. CEUR-WS. https://doi.org/10.5281/zenodo.20344461
 
 {% raw %}
 ```bibtex
 @inproceedings{opitz_extended_2026,
   title = {Extended {{Overview}} of {{HIPE-2026}}: {{Evaluating Accurate}} and {{Efficient Person}}--{{Place Relation Extraction}} from {{Multilingual Historical Texts}}},
   booktitle = {{{CLEF}} 2026 Working Notes, {{CEUR}} Workshop Proceedings},
-  author = {Opitz, Juri and Racl{\'e}, Corina and Michail, Andrianos and Romanello, Matteo and Boros, Emanuela and Gabay, Simon and Ehrmann, Maud and Clematide, Simon},
+  author = {Opitz, Juri and Ehrmann, Maud and Racl{\'e}, Corina and Michail, Andrianos and Romanello, Matteo and Boros, Emanuela and Gabay, Simon and Clematide, Simon},
   editor = {S{\'a}nchez Salido, Eva and {Barr{\'o}n-Cede{\~n}o}, Alberto and {Garc{\'i}a Seco de Herrera}, Alba and MacAvaney, Sean and Stru{\ss}, Julia Maria},
   year = 2026,
   publisher = {CEUR-WS},
@@ -133,5 +134,111 @@ participant's approach, present the results and the main findings.
   publisher = {Springer}
 }
 ```
+
+## Preparation of Camera-Ready Working Notes: General Guidelines
+
+### Team and Paper Identification
+
+- **Team name**: Please make sure your team name is mentioned in the paper,
+  including in the abstract, so that it can be related to the result tables
+  in the overview papers.
+- **Paper title**: Please do not change your paper title, as it is already
+  referenced in the overview papers and this would break the cross-referencing to 
+  your paper.
+
+### Article Writing
+
+- **Declaration of use of generative AI**: CEUR-WS requires a declaration
+  of use (or non-use) of generative AI tools in the preparation of your
+  paper. Please refer to the CEUR-WS policy and add the appropriate
+  statement: <https://ceur-ws.org/GenAI/Policy.html>
+- **Bibliography**: Please make sure your bibliography is complete and
+  correct, and that all references are cited in the text. Pay attention to
+  **correct casing** of titles.
+
+### Cross-References
+
+- **References to the overview papers**: Referencing both overview papers is
+  mandatory, as required by the CLEF chairs. Doing so also supports the
+  visibility of CLEF, shared tasks and their long-term sustainability. **Please note
+  that the BibTeX entries have been updated** — please **replace** any existing entries with the
+  correct versions available in the [References](https://hipe-eval.github.io/HIPE-2026/workshop#references) section above.
+
+  The **condensed overview** is also available as an **arXiv preprint**
+  (<https://arxiv.org/abs/2606.25935>) and can serve as **background reading**;
+  please cite the Springer version rather than the preprint.
+
+- **References to other participants' papers**: You may reference other
+  participants' papers where relevant. We are shaing BibTeX entries for all participant
+  papers [here](https://raw.githubusercontent.com/hipe-eval/HIPE-2026/refs/heads/camera-ready-general-information/assets/bib/system_references.bib).
+  Summaries of all systems are also available in the condensed overview paper linked above.
+
+### Task Definition, Setup, and Results
+
+- **Task presentation**: Participant papers should be **self-contained** and
+  include a **presentation of the task** and the **evaluation profiles**. This does
+  not need to be lengthy and **can point to the overview paper**, but it should
+  be present. When introducing the task, consider adding the **task website
+  URL in a footnote**: <https://hipe-eval.github.io/HIPE-2026/>
+
+- **System rankings**: If you mention the rank of your system(s):
+  - Specify the run number alongside the rank.
+  - State the total number of participating teams (17) and submitted runs
+    by participants (45), so that readers can situate your system in context.
+  - Point to the results tables of the overview papers for completeness.
+
+- **Metric and score names**: Please use metric and score names carefully
+  and consistently. 
+  - The official metric is **macro recall** (also referred
+    to as balanced accuracy). 
+  - The per-relation scores are `MacroRecall_at` and `MacroRecall_isAt`. 
+  - The language-specific profile score is their arithmetic mean, and the overall Test A ranking score averages this
+    across the three languages. 
+  - The three evaluation dimensions should be
+    referred to as profiles (Accuracy profile, Efficiency profile,
+    Generalization profile), not as tracks, tasks, or subtasks. 
+  - The efficiency score is the **arithmetic** mean of three ranks — accuracy rank, model parameter count
+    rank, and deployed model size rank — and is therefore not a recall or
+    accuracy figure: a lower efficiency score is better.
+
+- **Dataset and data split names**: To facilitate cross-paper comparison,
+  we encourage consistent naming of datasets and splits:
+  - For **test data**, please use one of the following:***Test A*** or ***Newspaper test 
+      set***, and ***Test B*** or ***French literary surprise test set***.
+  - For **training data**, the following distinctions apply. 
+    - **Gold Train A** refers to the manually annotated training data (available in the `/newspapers/v1.0`
+     folder of the data repository). 
+    - **Silver Train A** and **Silver Dev A** refer to the LLM-annotated data produced by majority voting (available in the
+     `/sandbox` folder); these may also be referred to as *sandbox train* and
+     *sandbox dev*, but we recommend using ***Silver Train A*** and ***Silver Dev A*** to
+     align with the terminology of the overview papers.
+  
+- **Consistency of reported results**: Please ensure that scores mentioned
+  in the abstract and conclusion match those in your result tables. When
+  reporting results, make clear in every table caption which test set the
+  scores correspond to — Test A (newspaper test set), Test B (French
+  literary surprise test set), or both.
+
+### Reproducibility and Code Sharing
+
+- **Competition data**: When mentioning the competition data, please
+  indicate the version used in a footnote:
+  <https://github.com/hipe-eval/HIPE-2026-data/releases/tag/v1.0>
+- **Official scorer**: If you used the official scorer, please cite and
+  reference it in the same footnote:
+  <https://github.com/hipe-eval/HIPE-2026-data/releases/tag/v1.0>
+- **Submission files and evaluation orchestrator**: If you wish to point to
+  your system submission files and the shared task evaluation orchestrator,
+  link to: <https://github.com/hipe-eval/HIPE-2026-eval>
+- **System code and model weights**: Consider providing a link to your
+  system code and/or model weights, if available.
+- **When presenting your models**, please make clear on which data they were
+    trained and validated.
+- **Prompt descriptions**: If your system uses prompting, we encourage you to 
+  include the  full prompt(s) — either as an appendix or via a link to your code
+  repository. Specifying the prompt language (especially when it differs
+  from the document language) and any prompt variants evaluated is important
+  for reproducibility.
+
 {% endraw %}
 
