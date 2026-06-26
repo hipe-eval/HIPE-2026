@@ -143,7 +143,8 @@ participant's approach, present the results and the main findings.
   including in the abstract, so that it can be related to the result tables
   in the overview papers.
 - **Paper title**: Please do not change your paper title, as it is already
-  referenced in the overview papers and indexed in the proceedings.
+  referenced in the overview papers and this would break the cross-referencing to 
+  your paper.
 
 ### Article Writing
 
