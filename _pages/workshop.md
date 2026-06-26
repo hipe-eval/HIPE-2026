@@ -170,8 +170,7 @@ participant's approach, present the results and the main findings.
 
 - **References to other participants' papers**: You may reference other
   participants' papers where relevant. We are shaing BibTeX entries for all participant
-  papers here:
-  <https://raw.githubusercontent.com/hipe-eval/HIPE-2026/refs/heads/camera-ready-general-information/assets/bib/system_references.bib>.
+  papers [here](https://raw.githubusercontent.com/hipe-eval/HIPE-2026/refs/heads/camera-ready-general-information/assets/bib/system_references.bib).
   Summaries of all systems are also available in the condensed overview paper linked above.
 
 ### Task Definition, Setup, and Results
