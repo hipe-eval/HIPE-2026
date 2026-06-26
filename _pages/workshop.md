@@ -158,15 +158,22 @@ participant's approach, present the results and the main findings.
 
 ### Cross-References
 
+- **References to the overview papers**: Referencing both overview papers is
+  mandatory, as required by the CLEF chairs. Doing so also supports the
+  visibility of the shared task and its long-term sustainability. Please note
+  that the BibTeX entries have been updated — please replace any existing entries with the
+  correct versions available in the [References](https://hipe-eval.github.
+  io/HIPE-2026/workshop#references) section above.
+
+  The condensed overview is also available as an arXiv preprint
+  (<https://arxiv.org/abs/2606.25935>) and can serve as background reading;
+  please cite the Springer version rather than the preprint.
+
 - **References to other participants' papers**: You may reference other
-  participants' papers where relevant. We are sharing BibTeX entries for all participant
-  papers [here](https://raw.githubusercontent.com/hipe-eval/HIPE-2026/refs/heads/camera-ready-general-information/assets/bib/system_references.bib). Additionally, you can find references and summaries in our [overview preprint on arXiv](https://arxiv.org/abs/2606.25935). (Note: If you cite the overview paper itself, keep using the shared Springer BibTex; See also next point).
-- **References to the overview papers**: Please make sure you reference both
-  overview papers, as this is mandatory. Please note the BibTeX entries have been updated and  
-  are available on the workshop page:
-  <https://hipe-eval.github.io/HIPE-2026/workshop#publication-and-cross-references>.
-  The condensed overview is also available as an arXiv preprint (see above) and can serve as background reading; please cite the
-  Springer version rather than the preprint.
+  participants' papers where relevant. BibTeX entries for all participant
+  papers are available at:
+  <https://raw.githubusercontent.com/hipe-eval/HIPE-2026/refs/heads/camera-ready-general-information/assets/bib/system_references.bib>.
+  Summaries of all systems are also available in the condensed overview paper linked above.
 
 ### Task Definition, Setup, and Results
 
@@ -179,7 +186,7 @@ participant's approach, present the results and the main findings.
 - **System rankings**: If you mention the rank of your system(s):
   - Specify the run number alongside the rank.
   - State the total number of participating teams (17) and submitted runs
-    (45), so that readers can situate your system in context.
+    by participants (45), so that readers can situate your system in context.
   - Point to the results tables of the overview papers for completeness.
 
 - **Metric and score names**: Please use metric and score names carefully
@@ -196,13 +203,21 @@ participant's approach, present the results and the main findings.
 
 - **Dataset and data split names**: To facilitate cross-paper comparison,
   we encourage consistent naming of datasets and splits:
-  - For test data, please use one of the following: *Newspaper test set* or
-    *Test A*, and *literary surprise test set* or *Test B*.
-  - For training data, the following names are equivalent and may be used
-    interchangeably: Gold Train A, Silver Train A, Silver Dev A (as defined
-    in the overview papers).
-  - In result tables, please indicate clearly which test set the results
-    correspond to.
+  - For **test data**, please use one of the following: *Newspaper test set* or
+    *Test A*, and *French literary surprise test set* or *Test B*.
+  - For **training data**, the following distinctions apply. **Gold Train A** refers
+   to the manually annotated training data (available in the `/newspapers/v1.0`
+   folder of the data repository). **Silver Train A** and **Silver Dev A** refer
+   to the LLM-annotated data produced by majority voting (available in the
+   `/sandbox` folder); these may also be referred to as *sandbox train* and
+   *sandbox dev*, but we recommend using *Silver Train* and *Silver Dev* to
+   align with the terminology of the overview papers.
+  
+- **Consistency of reported results**: Please ensure that scores mentioned
+  in the abstract and conclusion match those in your result tables. When
+  reporting results, make clear in every table caption which test set the
+  scores correspond to — Test A (newspaper test set), Test B (French
+  literary surprise test set), or both.
 
 ### Reproducibility and Code Sharing
 
@@ -219,6 +234,11 @@ participant's approach, present the results and the main findings.
   system code and/or model weights, if available.
 - **When presenting your models**, please make clear on which data they were
     trained and validated.
+- **Prompt descriptions**: If your system uses prompting, we encourage you to 
+  include the  full prompt(s) — either as an appendix or via a link to your code
+  repository. Specifying the prompt language (especially when it differs
+  from the document language) and any prompt variants evaluated is important
+  for reproducibility.
 
 {% endraw %}
 
