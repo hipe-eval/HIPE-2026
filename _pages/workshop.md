@@ -159,7 +159,7 @@ participant's approach, present the results and the main findings.
 
 - **References to other participants' papers**: You may reference other
   participants' papers where relevant. We are sharing BibTeX entries for all participant
-  papers here (link to be added). Additionally, you can find references and summaries in our [overview preprint on arXiv](https://arxiv.org/abs/2606.25935). (Note: If you cite the overview paper itself, keep using the shared Springer BibTex; See also next point).
+  papers [here](https://raw.githubusercontent.com/hipe-eval/HIPE-2026/refs/heads/camera-ready-general-information/assets/bib/system_references.bib). Additionally, you can find references and summaries in our [overview preprint on arXiv](https://arxiv.org/abs/2606.25935). (Note: If you cite the overview paper itself, keep using the shared Springer BibTex; See also next point).
 - **References to the overview papers**: Please make sure you reference both
   overview papers, as this is mandatory. Please note the BibTeX entries have been updated and  
   are available on the workshop page:
