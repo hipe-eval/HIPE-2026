@@ -160,26 +160,25 @@ participant's approach, present the results and the main findings.
 
 - **References to the overview papers**: Referencing both overview papers is
   mandatory, as required by the CLEF chairs. Doing so also supports the
-  visibility of the shared task and its long-term sustainability. Please note
-  that the BibTeX entries have been updated — please replace any existing entries with the
-  correct versions available in the [References](https://hipe-eval.github.
-  io/HIPE-2026/workshop#references) section above.
+  visibility of CLEF, shared tasks and their long-term sustainability. **Please note
+  that the BibTeX entries have been updated** — please **replace** any existing entries with the
+  correct versions available in the [References](https://hipe-eval.github.io/HIPE-2026/workshop#references) section above.
 
-  The condensed overview is also available as an arXiv preprint
-  (<https://arxiv.org/abs/2606.25935>) and can serve as background reading;
+  The **condensed overview** is also available as an **arXiv preprint**
+  (<https://arxiv.org/abs/2606.25935>) and can serve as **background reading**;
   please cite the Springer version rather than the preprint.
 
 - **References to other participants' papers**: You may reference other
-  participants' papers where relevant. BibTeX entries for all participant
-  papers are available at:
+  participants' papers where relevant. We are shaing BibTeX entries for all participant
+  papers here:
   <https://raw.githubusercontent.com/hipe-eval/HIPE-2026/refs/heads/camera-ready-general-information/assets/bib/system_references.bib>.
   Summaries of all systems are also available in the condensed overview paper linked above.
 
 ### Task Definition, Setup, and Results
 
-- **Task presentation**: Participant papers should be self-contained and
-  include a presentation of the task and the evaluation profiles. This does
-  not need to be lengthy and can point to the overview paper, but it should
+- **Task presentation**: Participant papers should be **self-contained** and
+  include a **presentation of the task** and the **evaluation profiles**. This does
+  not need to be lengthy and **can point to the overview paper**, but it should
   be present. When introducing the task, consider adding the **task website
   URL in a footnote**: <https://hipe-eval.github.io/HIPE-2026/>
 
@@ -190,27 +189,29 @@ participant's approach, present the results and the main findings.
   - Point to the results tables of the overview papers for completeness.
 
 - **Metric and score names**: Please use metric and score names carefully
-  and consistently. The official metric is **macro recall** (also referred
-  to as balanced accuracy). The per-relation scores are
-  `MacroRecall_at` and `MacroRecall_isAt`. The language-specific profile
-  score is their arithmetic mean, and the overall Test A ranking score averages this
-  across the three languages. The three evaluation dimensions should be
-  referred to as profiles (Accuracy profile, Efficiency profile,
-  Generalization profile), not as tracks, tasks, or subtasks. The efficiency
-  score is the **arithmetic** mean of three ranks — accuracy rank, model parameter count
-  rank, and deployed model size rank — and is therefore not a recall or
-  accuracy figure: a lower efficiency score is better.
+  and consistently. 
+  - The official metric is **macro recall** (also referred
+    to as balanced accuracy). 
+  - The per-relation scores are `MacroRecall_at` and `MacroRecall_isAt`. 
+  - The language-specific profile score is their arithmetic mean, and the overall Test A ranking score averages this
+    across the three languages. 
+  - The three evaluation dimensions should be
+    referred to as profiles (Accuracy profile, Efficiency profile,
+    Generalization profile), not as tracks, tasks, or subtasks. 
+  - The efficiency score is the **arithmetic** mean of three ranks — accuracy rank, model parameter count
+    rank, and deployed model size rank — and is therefore not a recall or
+    accuracy figure: a lower efficiency score is better.
 
 - **Dataset and data split names**: To facilitate cross-paper comparison,
   we encourage consistent naming of datasets and splits:
-  - For **test data**, please use one of the following: *Newspaper test set* or
-    *Test A*, and *French literary surprise test set* or *Test B*.
+  - For **test data**, please use one of the following: ***Test A*** or ***Newspaper test 
+    set***, and ***Test B*** or ***French literary surprise test set***.
   - For **training data**, the following distinctions apply. **Gold Train A** refers
    to the manually annotated training data (available in the `/newspapers/v1.0`
    folder of the data repository). **Silver Train A** and **Silver Dev A** refer
    to the LLM-annotated data produced by majority voting (available in the
    `/sandbox` folder); these may also be referred to as *sandbox train* and
-   *sandbox dev*, but we recommend using *Silver Train* and *Silver Dev* to
+   *sandbox dev*, but we recommend using ***Silver Train A*** and ***Silver Dev A*** to
    align with the terminology of the overview papers.
   
 - **Consistency of reported results**: Please ensure that scores mentioned
