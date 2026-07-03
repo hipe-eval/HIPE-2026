@@ -13,7 +13,7 @@ permissions:
 
 concurrency:
   group: pages
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   build:
@@ -47,7 +47,3 @@ jobs:
         id: deploy_retry
         if: steps.deploy.outcome == 'failure'
         uses: actions/deploy-pages@v5
-
-      - name: Mark job as failed if retry also failed
-        if: steps.deploy.outcome == 'failure' && steps.deploy_retry.outcome == 'failure'
-        run: exit 1
