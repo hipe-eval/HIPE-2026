@@ -12,7 +12,6 @@ permalink: tasks
 - [Datasets](#datasets)
 - [Baseline and Starter Code](#baseline-and-starter-code)
 
-
 ## Task Overview
 
 HIPE-2026 is a shared task on **person–place relation extraction** from **multilingual historical texts**. The goal is to assess whether a relation holds between a person and a place mentioned in a document — and to classify that relation with respect to its **temporal scope**.
@@ -53,7 +52,6 @@ Participants must return a classification for each possible `(person, place, rel
 ### Realistic Example from Historical Data
 
 This example illustrates a real instance of the HIPE-2026 task using an article from the _Gazette de Lausanne_ dated 1928-05-06. It involves multiple persons and places, various temporal scopes, and differing levels of textual evidence.
-
 
 #### Article Context
 
@@ -147,9 +145,9 @@ Please download the Excel file below for seven more examples and specifications 
 
 HIPE-2026 reports three evaluation profiles:
 
-1. **Accuracy Profile**: ranking on the multilingual `impresso` newspaper test data, based primarily on macro-averaged Recall (balanced accuracy).
+1. **Accuracy Profile**: ranking on the multilingual `impresso` newspaper test A data, based primarily on macro-averaged Recall (balanced accuracy).
 
-2. **Generalization Profile**: evaluation on the out-of-domain `surprise` test data.
+2. **Generalization Profile**: evaluation on the out-of-domain `surprise` test B data.
 
 3. **Accuracy-Efficiency Profile**: ranking that combines prediction quality with model footprint metadata such as parameter count and model size.
 
@@ -157,7 +155,9 @@ Please find more details in the [Participation Guidelines](https://zenodo.org/re
 
 ## Datasets
 
-The task uses two dataset families. The original participation guidelines describe these as Test Set A and Test Set B; the website and generated reports use the dataset names `impresso` and `surprise`.
+The task uses two dataset families. The participation guidelines describe these as Test
+Set A and Test Set B; the website and generated reports use the dataset names `impresso`
+and `surprise`. The [datasets are on github](https://github.com/hipe-eval/HIPE-2026-data).
 
 ### Development and `impresso` Data
 
@@ -169,7 +169,7 @@ The task uses two dataset families. The original participation guidelines descri
 
 ### `surprise` Data
 
-- French literary corpus from the **16th–18th century**
+- French literary and historiographical corpus from the **16th–18th century**
 - Annotated for NER and enriched with relation labels
 - Restricted to the `at` relation type for evaluation
 - Designed to evaluate **domain generalization**
@@ -182,8 +182,8 @@ The public resources include:
 
 - Input/output templates
 - Scoring scripts
-- A baseline system based on LLM prompting
-- Evaluation reports, diagnostics, and submitted runs in the evaluation repository
+- An [extensibel baseline system using zero-shot LLM prompting](https://github.com/hipe-eval/hipe-2026-llm-baseline)
+- Evaluation reports, diagnostics, and submitted runs in the [evaluation repository](https://github.com/hipe-eval/hipe-2026-eval)
 
 ## Questions?
 
