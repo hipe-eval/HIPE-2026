@@ -8,6 +8,7 @@ The CLEF-HIPE-2026 workshop will take place during the [CLEF 2026 conference](ht
 ## On This Page
 
 - [Key Dates](#key-dates)
+- [HIPE at CLEF 2026](#hipe-at-clef-2026)
 - [Working Notes](#working-notes)
 - [Submission and Review](#submission-and-review)
 - [Publication and Cross-References](#publication-and-cross-references)
@@ -27,6 +28,35 @@ For the complete shared-task schedule, see the [Timeline & Author Instructions](
 | Working Notes preview (author checking)             | 21–25 July 2026 |
 
 All deadlines are Anywhere on Earth (AoE).
+
+## HIPE at CLEF 2026, Tuesday 22 September 2026
+
+The HIPE shared task is part of the CLEF 2026 conference in Jena, Germany.
+The shared-task overview and workshop will be held on **Tuesday 22 September
+2026**. The workshop will be a hybrid event, with both in-person and remote
+participation possible.
+
+See the [CLEF 2026 programme](https://clef2026.clef-initiative.eu/conference/program/)
+for the full schedule.
+
+### Morning: HIPE overview
+
+The shared-task overview will be presented on **Tuesday 22 September 2026,
+11:15–12:05** in **Lab Overviews 2**.
+
+### Afternoon: HIPE workshop
+
+The HIPE workshop will take place on **Tuesday 22 September 2026,
+16:00–17:30** in **HIPE 1/1**.
+
+The afternoon session has two main segments of ca. 45min each: presentations from 
+participating
+systems, followed by a panel discussion bringing together organizers and
+teams. More detailed information will be added later.
+
+- **System presentations** — details to come
+- **Panel discussion** — panel on takeaways regarding generalization and efficiency, 
+  and next steps.
 
 ## Working Notes
 
@@ -241,4 +271,3 @@ participant's approach, present the results and the main findings.
   for reproducibility.
 
 {% endraw %}
-
