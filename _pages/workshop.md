@@ -71,8 +71,31 @@ Extended presentation: Spinfo (10 min presentation + 2 min Q&A)
 Top-ranked team in the overall Test A accuracy ranking  
 
 
-**17:05–17:30**: Panel Discussion (organizers and teams). Topic: Main-Takeaways + What to do next?
+**17:05–17:30 — Panel discussion: Lessons learned and where should HIPE go next?**
 
+The workshop concludes with a discussion among participating teams and
+organizers on lessons learned from HIPE-2026 and directions for future
+editions.
+
+**17:05–17:15 — Generalization: lessons from the surprise test set**  
+Short input by **Matteo Romanello**, who provided the data for the
+Generalization profile, followed by discussion. What does the French
+literary and historiographical surprise test set tell us about the ability
+of current systems to generalize across domains, genres, and historical
+periods? What did we learn from this evaluation setting, and how could
+generalization be evaluated in future editions?
+
+**17:15–17:25 — Rethinking efficiency evaluation**  
+How should efficiency be measured in future shared tasks? Which aspects of
+computational cost should be taken into account? How can systems with very
+different architectures and deployment settings be compared fairly? And
+should efficiency remain a separate evaluation profile or be combined with
+predictive performance?
+
+**17:25–17:30 — Where should HIPE go next?**  
+Open discussion with participating teams and organizers: Which tasks, data,
+evaluation settings, and research questions should future editions of HIPE
+focus on?
 
 ## Working Notes
 
