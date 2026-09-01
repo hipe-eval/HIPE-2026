@@ -57,16 +57,16 @@ teams.
 
 **16:05--16:30**: Team presentations
 - 16:05--16:12 INSA Lyon
-- 16:13--16:20 GippLab
+- 16:13--16:20 gipplab
 - 16:21--16:28 ROSTI
 
 **16:30--16:50** Team presentations (remote)
-- 16:30--16:34 Verbanex AI I
+- 16:30--16:34 MILRIT (TBD)
 - 16:35--16:39 Verbanex AI II
 - 16:40--16:44 Hansel&Gretel
 - 16:45--16:49 DS@GT
 
-**16:50--17:02**: Winning Team Presentation
+**16:50--17:02**: Presentation by Winning Team
 - 16:50--17:02 Spinfo
 
 **17:05--17:30**: Panel Discussion (organizers and teams). Topic: Main-Takeaways + What to do next?
