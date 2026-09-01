@@ -215,7 +215,7 @@ participant's approach, present the results and the main findings.
   please cite the Springer version rather than the preprint.
 
 - **References to other participants' papers**: You may reference other
-  participants' papers where relevant. We are shaing BibTeX entries for all participant
+  participants' papers where relevant. We are sharing BibTeX entries for all participant
   papers [here](https://raw.githubusercontent.com/hipe-eval/HIPE-2026/refs/heads/camera-ready-general-information/assets/bib/system_references.bib).
   Summaries of all systems are also available in the condensed overview paper linked above.
 
