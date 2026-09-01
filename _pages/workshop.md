@@ -67,7 +67,7 @@ teams.
 - 16:45--16:49 DS@GT
 
 **16:50--17:02**: Winning Team Presentation
-- 16:50--17:02: Spinfo
+- 16:50--17:02 Spinfo
 
 **17:05--17:30**: Panel Discussion (organizers and teams). Topic: Main-Takeaways + What to do next?
 
