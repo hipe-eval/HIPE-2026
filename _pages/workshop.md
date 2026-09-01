@@ -49,27 +49,29 @@ The shared-task overview will be presented on **Tuesday 22 September 2026,
 The HIPE workshop will take place on **Tuesday 22 September 2026,
 16:00–17:30** in **HIPE 1/1**.
 
-The afternoon session has two main segments of ca. 45min each: presentations from 
-participating systems, followed by a panel discussion bringing together organizers and
-teams. 
+The afternoon session combines short presentations from participating teams,
+a presentation by the winning team, and a concluding panel discussion bringing
+together participants and organizers.
 
-**16:00--16:05**: Introduction
+**16:00–16:05**: Introduction
 
-**16:05--16:30**: Team presentations (each 5 min and 2 min Q/A)
-- 16:05--16:12 INSA Lyon
-- 16:13--16:20 gipplab
-- 16:21--16:28 ROSTI
+**16:05–16:30**: Team presentations (each 5 min and 2 min Q/A)
+- 16:05–16:12 INSA Lyon
+- 16:13–16:20 gipplab
+- 16:21–16:28 ROSTI
 
-**16:30--16:50** Remote Team presentations (each 3 min and 1 min Q/A) 
-- 16:30--16:34 MILRIT (TBD)
-- 16:35--16:39 Verbanex AI II
-- 16:40--16:44 Hansel&Gretel
-- 16:45--16:49 DS@GT
+**16:30–16:50** Remote Team presentations (each 3 min and 1 min Q/A) 
+- 16:30–16:34 MILRIT (TBC)
+- 16:35–16:39 Verbanex AI II
+- 16:40–16:44 Hansel&Gretel
+- 16:45–16:49 DS@GT
 
-**16:50--17:02**: Presentation by Winning Team (10 min + 2 min Q/A)
-- 16:50--17:02 Spinfo
+**16:50–17:02**
+Extended presentation: Spinfo (10 min presentation + 2 min Q&A) 
+Top-ranked team in the overall Test A accuracy ranking  
 
-**17:05--17:30**: Panel Discussion (organizers and teams). Topic: Main-Takeaways + What to do next?
+
+**17:05–17:30**: Panel Discussion (organizers and teams). Topic: Main-Takeaways + What to do next?
 
 
 ## Working Notes
