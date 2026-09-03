@@ -49,14 +49,53 @@ The shared-task overview will be presented on **Tuesday 22 September 2026,
 The HIPE workshop will take place on **Tuesday 22 September 2026,
 16:00–17:30** in **HIPE 1/1**.
 
-The afternoon session has two main segments of ca. 45min each: presentations from 
-participating
-systems, followed by a panel discussion bringing together organizers and
-teams. More detailed information will be added later.
+The afternoon session combines short presentations from participating teams,
+a presentation by the winning team, and a concluding panel discussion bringing
+together participants and organizers.
 
-- **System presentations** — details to come
-- **Panel discussion** — panel on takeaways regarding generalization and efficiency, 
-  and next steps.
+**16:00–16:05**: Introduction
+
+**16:05–16:30**: Team presentations (each 5 min and 2 min Q/A)
+- 16:05–16:12 INSA Lyon
+- 16:13–16:20 gipplab
+- 16:21–16:28 ROSTI
+
+**16:30–16:50** Remote Team presentations (each 3 min and 1 min Q/A) 
+- 16:30–16:34 MILRIT (TBC)
+- 16:35–16:39 Verbanex AI II
+- 16:40–16:44 Hansel&Gretel
+- 16:45–16:49 DS@GT
+
+**16:50–17:02**
+Extended presentation: Spinfo (10 min presentation + 2 min Q&A) 
+Top-ranked team in the overall Test A accuracy ranking  
+
+
+**17:05–17:30 — Panel discussion: Lessons learned and where should HIPE go next?**
+
+The workshop concludes with a discussion among participating teams and
+organizers on lessons learned from HIPE-2026 and directions for future
+editions.
+
+**17:05–17:15 — Generalization: lessons from the surprise test set**  
+Short input by **Matteo Romanello**, who provided the data for the
+Generalization profile, followed by discussion. What does the French
+literary and historiographical surprise test set tell us about the ability
+of current systems to generalize across domains, genres, and historical
+periods? What did we learn from this evaluation setting, and how could
+generalization be evaluated in future editions?
+
+**17:15–17:25 — Rethinking efficiency evaluation**  
+How should efficiency be measured in future shared tasks? Which aspects of
+computational cost should be taken into account? How can systems with very
+different architectures and deployment settings be compared fairly? And
+should efficiency remain a separate evaluation profile or be combined with
+predictive performance?
+
+**17:25–17:30 — Where should HIPE go next?**  
+Open discussion with participating teams and organizers: Which tasks, data,
+evaluation settings, and research questions should future editions of HIPE
+focus on?
 
 ## Working Notes
 
@@ -199,7 +238,7 @@ participant's approach, present the results and the main findings.
   please cite the Springer version rather than the preprint.
 
 - **References to other participants' papers**: You may reference other
-  participants' papers where relevant. We are shaing BibTeX entries for all participant
+  participants' papers where relevant. We are sharing BibTeX entries for all participant
   papers [here](https://raw.githubusercontent.com/hipe-eval/HIPE-2026/refs/heads/camera-ready-general-information/assets/bib/system_references.bib).
   Summaries of all systems are also available in the condensed overview paper linked above.
 
