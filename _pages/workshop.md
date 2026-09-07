@@ -56,11 +56,11 @@ together participants and organizers.
 **16:00–16:05**: Introduction
 
 **16:05–16:30**: Team presentations (each 5 min and 2 min Q/A)
-- 16:05–16:12 INSA Lyon
-- 16:13–16:20 gipplab
-- 16:21–16:28 ROSTI
+- 16:05–16:12 gipplab
+- 16:13–16:20 ROSTI
 
-**16:30–16:50** Remote Team presentations (each 3 min and 1 min Q/A) 
+**16:25–16:50** Remote Team presentations (each 3 min and 1 min Q/A) 
+- 16:25–16:29 INSA Lyon
 - 16:30–16:34 MILRIT (TBC)
 - 16:35–16:39 Verbanex AI II
 - 16:40–16:44 Hansel&Gretel
