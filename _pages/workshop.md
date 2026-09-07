@@ -61,7 +61,7 @@ together participants and organizers.
 
 **16:25–16:50** Remote Team presentations (each 3 min and 1 min Q/A) 
 - 16:25–16:29 INSA Lyon
-- 16:30–16:34 MILRIT (TBC)
+- 16:30–16:34 MILRIT
 - 16:35–16:39 Verbanex AI II
 - 16:40–16:44 Hansel&Gretel
 - 16:45–16:49 DS@GT
