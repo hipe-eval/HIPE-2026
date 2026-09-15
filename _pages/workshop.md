@@ -8,7 +8,7 @@ The CLEF-HIPE-2026 workshop will take place during the [CLEF 2026 conference](ht
 ## On This Page
 
 - [Key Dates](#key-dates)
-- [HIPE at CLEF 2026](#hipe-at-clef-2026)
+- [**HIPE at CLEF 2026 Program (updated!)**](#hipe-at-clef-2026)
 - [Working Notes](#working-notes)
 - [Submission and Review](#submission-and-review)
 - [Publication and Cross-References](#publication-and-cross-references)
@@ -55,23 +55,21 @@ together participants and organizers.
 
 **16:00–16:05**: Introduction
 
-**16:05–16:30**: Team presentations (each 5 min and 2 min Q/A)
-- 16:05–16:12 gipplab
-- 16:13–16:20 ROSTI
+**16:05–16:35**: Remote Team presentations (each 3 min and 1 min Q/A) 
+- INSA Lyon
+- MILRIT
+- Verbanex AI II
+- Hansel&Gretel
+- DS@GT
+- ROSTI
 
-**16:25–16:50** Remote Team presentations (each 3 min and 1 min Q/A) 
-- 16:25–16:29 INSA Lyon
-- 16:30–16:34 MILRIT
-- 16:35–16:39 Verbanex AI II
-- 16:40–16:44 Hansel&Gretel
-- 16:45–16:49 DS@GT
+**16:35–16:40**: Buffer time or break.
 
-**16:50–17:02**
-Extended presentation: Spinfo (10 min presentation + 2 min Q&A) 
-Top-ranked team in the overall Test A accuracy ranking  
+**16:40–17:00**: Team presentations, in-venue
+- gipplab (5 min and 2min Q/A)
+- Extended presentation of Top-ranked team in the main Test A accuracy ranking: Spinfo (10 min presentation + 2 min Q&A) 
 
-
-**17:05–17:30 — Panel discussion: Lessons learned and where should HIPE go next?**
+**17:00–17:30 — Panel discussion: Lessons learned and where should HIPE go next?**
 
 The workshop concludes with a discussion among participating teams and
 organizers on lessons learned from HIPE-2026 and directions for future
