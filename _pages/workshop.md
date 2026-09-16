@@ -53,9 +53,7 @@ The afternoon session combines short presentations from participating teams,
 a presentation by the winning team, and a concluding panel discussion bringing
 together participants and organizers.
 
-**16:00–16:05**: Introduction
-
-**16:05–16:35**: Remote Team presentations (each 3 min and 1 min Q/A) 
+**16:00–16:30**: Introduction & Remote Team presentations (each 3 min and 1 min Q/A) 
 - INSA Lyon
 - MILRIT
 - Verbanex AI II
@@ -63,9 +61,8 @@ together participants and organizers.
 - DS@GT
 - ROSTI
 
-**16:35–16:40**: Buffer time or break.
-
-**16:40–17:00**: Team presentations, in-venue
+**16:30–17:00**: Team presentations, in-venue
+- FI-code (5 min and 2min Q/A)
 - gipplab (5 min and 2min Q/A)
 - Extended presentation of Top-ranked team in the main Test A accuracy ranking: Spinfo (10 min presentation + 2 min Q&A) 
 
