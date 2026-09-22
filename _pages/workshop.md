@@ -8,7 +8,7 @@ The CLEF-HIPE-2026 workshop will take place during the [CLEF 2026 conference](ht
 ## On This Page
 
 - [Key Dates](#key-dates)
-- [**HIPE at CLEF 2026 Program (updated!)**](#hipe-at-clef-2026)
+- [**HIPE at CLEF 2026 Program (updated!)**](#hipe-at-clef-2026-tuesday-22-september-2026)
 - [Working Notes](#working-notes)
 - [Submission and Review](#submission-and-review)
 - [Publication and Cross-References](#publication-and-cross-references)
