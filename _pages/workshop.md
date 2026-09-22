@@ -42,12 +42,14 @@ for the full schedule.
 ### Morning: HIPE overview
 
 The shared-task overview will be presented on **Tuesday 22 September 2026,
-11:15–12:05** in **Lab Overviews 2**.
+11:15–12:05** in **Lab Overviews 2**. [Presentation Slides](https://docs.google.com/presentation/d/1-1MnEsSMJIxzSs8jGIX11gIKSoiTK-5zMczqhDCYKk8/edit?usp=sharing)
 
 ### Afternoon: HIPE workshop
 
 The HIPE workshop will take place on **Tuesday 22 September 2026,
-16:00–17:30** in **HIPE 1/1**.
+16:00–17:30** in **HIPE 1/1** in **Room 113**.
+
+[HIPE 2026 Overview Poster with top results in a nutshell](https://drive.google.com/file/d/1Jiz_V7yiJikHZr8z-2V-LY0q8WXknDfm/view?usp=sharing)
 
 The afternoon session combines short presentations from participating teams,
 a presentation by the winning team, and a concluding panel discussion bringing
