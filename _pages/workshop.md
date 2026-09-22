@@ -82,7 +82,8 @@ editions.
 
 - **17:25–17:30 — Where should HIPE go next?**: Open discussion with participating teams and organizers: Which tasks, data, evaluation settings, and research questions should future editions of HIPE focus on?
 
-**Participant survey:**
+**Participant survey: Give us your feedback and share your thoughts on future 
+perspectives!**
 
 <img src="assets/images/QR_HIPE-2026_Feedback.png" alt="QR Code for Feedback Form" width="300">
 
