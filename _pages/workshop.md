@@ -83,6 +83,7 @@ editions.
 - **17:25–17:30 — Where should HIPE go next?**: Open discussion with participating teams and organizers: Which tasks, data, evaluation settings, and research questions should future editions of HIPE focus on?
 
 ## Working Notes
+[Publicly available now!](https://clef-staging.pages.dev/#:~:text=Evaluating%20Accurate%20and%20Efficient%20Person%E2%80%93Place%20Relation%20Extraction%20from%20Multilingual%20Historical%20Texts)
 
 Participant working notes will be published in the **CEUR-WS Working Notes** of CLEF 2026. All submissions, reviews, and camera-ready versions are handled through EasyChair:
 [https://easychair.org/conferences/?conf=clef2026](https://easychair.org/conferences/?conf=clef2026)
