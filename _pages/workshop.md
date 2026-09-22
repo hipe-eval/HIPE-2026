@@ -39,6 +39,8 @@ participation possible.
 See the [CLEF 2026 programme](https://clef2026.clef-initiative.eu/conference/program/)
 for the full schedule.
 
+[All 16 system descriptions and the extended overview paper](https://clef-staging.pages.dev/#:~:text=Evaluating%20Accurate%20and%20Efficient%20Person%E2%80%93Place%20Relation%20Extraction%20from%20Multilingual%20Historical%20Texts) are published.
+
 ### Morning: HIPE overview
 
 The shared-task overview will be presented on **Tuesday 22 September 2026,
