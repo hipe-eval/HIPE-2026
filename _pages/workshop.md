@@ -87,6 +87,7 @@ perspectives!**
 
 <img src="assets/images/QR_HIPE-2026_Feedback.png" alt="QR Code for Feedback Form" width="300">
 
+[[Link to survey](https://forms.gle/7g6k1Z5v8X9q4r3R9)]
 
 ## Working Notes
 [Publicly available now!](https://clef-staging.pages.dev/#:~:text=Evaluating%20Accurate%20and%20Efficient%20Person%E2%80%93Place%20Relation%20Extraction%20from%20Multilingual%20Historical%20Texts)
