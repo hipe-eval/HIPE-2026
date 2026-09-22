@@ -82,6 +82,10 @@ editions.
 
 - **17:25–17:30 — Where should HIPE go next?**: Open discussion with participating teams and organizers: Which tasks, data, evaluation settings, and research questions should future editions of HIPE focus on?
 
+**Participant survey:**
+
+<iframe width="640px" height="480px" src="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=alXC9vvEsUqix54iDfEcQyt_WmkbyNdJg10tiVRDBGNUQ05UVTJHVks1T1RES0JIRzRGTjhGUE1SSi4u&embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+
 ## Working Notes
 [Publicly available now!](https://clef-staging.pages.dev/#:~:text=Evaluating%20Accurate%20and%20Efficient%20Person%E2%80%93Place%20Relation%20Extraction%20from%20Multilingual%20Historical%20Texts)
 
